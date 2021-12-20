@@ -297,11 +297,14 @@ ideas = {
 			traits = { artillery_manufacturer }
 		}
 	}
-	SRL_disjointed_government = {
+	
+	country = {
+		
+		SRL_disjointed_government = {
 			
 			allowed = {
 				original_tag = SRL
-				always = no
+				always = yes
 			}
 
 			removal_cost = -1
@@ -313,5 +316,6 @@ ideas = {
 				stability_factor = -0.10
 				surrender_limit = -0.9
 			}
+		}
 	}
 }
