@@ -8,14 +8,14 @@ state={
 	}
 
 	history={
-		owner = X33
+		owner = RSI
 		victory_points = {
 			1412 10 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 0
+			industrial_complex = 4
+			arms_factory = 2
 			10190 = {
 				naval_base = 4
 			}
@@ -25,6 +25,7 @@ state={
 		add_core_of = X14
 		add_core_of = X32
 		add_core_of = X52
+		add_core_of = RSI
 	}
 
 	provinces={

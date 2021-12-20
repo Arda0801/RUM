@@ -1,4 +1,4 @@
-﻿capital = 331
+﻿capital = 9833
 set_major = yes
 set_research_slots = 4
 add_named_threat = { threat = 0.046 name = infamy }
@@ -150,6 +150,10 @@ if = {
     }
     set_autonomy = {
         target = X24
+        autonomous_state = autonomy_integrated_puppet
+    }
+	set_autonomy = {
+        target = RSI
         autonomous_state = autonomy_integrated_puppet
     }
     set_autonomy = {
