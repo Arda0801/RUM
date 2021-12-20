@@ -1,0 +1,112 @@
+characters={
+	X33_rauf_murat={
+		name=X33_rauf_murat
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X33_osman_akkoz={
+		name=X33_osman_akkoz
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X33_talat_akdag'={
+		name=X33_talat_akdag'
+		corps_commander={
+			skill=3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X33_ziya_balbay={
+		name=X33_ziya_balbay
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X33_rauf_altintop={
+		name=X33_rauf_altintop
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X33_emin_celik={
+		name=X33_emin_celik
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X33_kemal_saban={
+		name=X33_kemal_saban
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X33_nurettin_aziz={
+		name=X33_nurettin_aziz
+		navy_leader={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X33_bekir_eren={
+		name=X33_bekir_eren
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_Arabia_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

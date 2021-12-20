@@ -1,0 +1,33 @@
+
+state={
+	id=131
+	name="STATE_131"
+	resources={
+		rubber=1.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = X12
+		victory_points = {
+			7161 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X12
+	}
+
+	provinces={
+		7161 10766 10858 
+	}
+	manpower=82936
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

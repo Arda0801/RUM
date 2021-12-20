@@ -1,0 +1,16 @@
+characters={
+	X54_king_muhammad={
+		name=X54_king_muhammad
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/portrait_kaz_ilyas_zhansugurov.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

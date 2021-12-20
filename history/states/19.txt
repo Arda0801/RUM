@@ -1,0 +1,32 @@
+
+state={
+	id=19
+	name="STATE_19"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = SPC
+		victory_points = {
+			11521 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = SPC
+	}
+
+	provinces={
+		539 553 11521 
+	}
+	manpower=324972
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

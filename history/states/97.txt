@@ -1,0 +1,34 @@
+
+state={
+	id=97
+	name="STATE_97"
+	resources={
+		oil=0.000
+	}
+
+	history={
+		owner = HAN
+		victory_points = {
+			6377 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = POL
+		add_core_of = X46
+		add_claim_by = HAN
+	}
+
+	provinces={
+		309 3234 3395 6377 9281 11233 11264 
+	}
+	manpower=2233080
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

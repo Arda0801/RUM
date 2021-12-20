@@ -1,0 +1,59 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10919
+		task_force = {
+			name = "1st Fleet"
+			location = 10919
+			ship = { name = "Assegai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X12 } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 10862
+		task_force = {
+			name = "3rd Fleet"
+			location = 10862
+			ship = { name = "Dingane" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X12 } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10919
+		task_force = {
+			name = "4th Fleet"
+			location = 10919
+			ship = { name = "Shaka Zulu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X12 } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 6039
+		task_force = {
+			name = "6th Fleet"
+			location = 6039
+			ship = { name = "KwaZulu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X12 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X12"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X12"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

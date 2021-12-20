@@ -1,0 +1,16 @@
+characters={
+	X62_nemarluk_lanne={
+		name=X62_nemarluk_lanne
+		portraits={
+			civilian={
+				large="gfx/leaders/African/Portrait_SUD_Abd_Mahdi.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

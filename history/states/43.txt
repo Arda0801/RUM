@@ -1,0 +1,35 @@
+
+state={
+	id=43
+	name="STATE_43"
+	resources={
+		oil=1.000
+		steel=0.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = BOL
+		victory_points = {
+			5229 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = BOL
+		add_claim_by = ARG
+	}
+
+	provinces={
+		5229 12979 
+	}
+	manpower=1033396
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,28 @@
+characters={
+	KSH_franciszek_soltyk={
+		name=KSH_franciszek_soltyk
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	KSH_antoni_zajaczek={
+		name=KSH_antoni_zajaczek
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

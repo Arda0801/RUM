@@ -1,0 +1,16 @@
+characters={
+	X48_king_yashovardhana_iii={
+		name=X48_king_yashovardhana_iii
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_DEH_Sir_Sikander_Hayat_Khan.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

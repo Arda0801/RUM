@@ -1,0 +1,31 @@
+
+state={
+	id=627
+	name="STATE_627"
+
+	history={
+		owner = X44
+		victory_points = {
+			3823 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			6846 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		788 865 873 951 1506 3823 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 
+	}
+	manpower=1194404
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

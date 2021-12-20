@@ -1,0 +1,64 @@
+characters={
+	X16_paquampa_oglala={
+		name=X16_paquampa_oglala
+		corps_commander={
+			skill=4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X16_petette_minisatonwanbi={
+		name=X16_petette_minisatonwanbi
+		corps_commander={
+			skill=3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X16_waywasecapow_wahakolin={
+		name=X16_waywasecapow_wahakolin
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	X16_noguinilayque_tanzinapebina={
+		name=X16_noguinilayque_tanzinapebina
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X16_nochkpitshitoepish_brave_by_hazard={
+		name=X16_nochkpitshitoepish_brave_by_hazard
+		portraits={
+			civilian={
+				large="gfx/leaders/North_American_Native/portrait_native_north_american_democratic.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

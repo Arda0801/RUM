@@ -1,0 +1,45 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12459
+		task_force = {
+			name = "1st Fleet"
+			location = 12459
+			ship = { name = "New England" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Maine" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Massachusetts" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "New Hampshire" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Rhode Island" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Vermont" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Boston" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Hartford" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Augusta" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Concord" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Connecticut" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Providence" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "Montpelier" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X44 } } }
+			ship = { name = "John Smith" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X44 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X44"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X44"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

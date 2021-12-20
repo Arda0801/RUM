@@ -1,0 +1,43 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 9361
+		task_force = {
+			name = "1st Fleet"
+			location = 2382
+			ship = { name = "Mikolaj Kopernik" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POL } } }
+			ship = { name = "Jan Heweliusz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POL } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9361
+		task_force = {
+			name = "3rd Fleet"
+			location = 9361
+			ship = { name = "1st Christiania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POL } } }
+			ship = { name = "Stanislaw Lubieniecki" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = POL } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "POL"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "POL"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

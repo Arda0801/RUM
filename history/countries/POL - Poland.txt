@@ -1,0 +1,865 @@
+﻿capital = 260
+set_research_slots = 3
+
+oob = "POL_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "POL_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "POL_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tactical_bomber1 = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_medium_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = air_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = air_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = naval_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = naval_doctrine
+}
+
+set_country_flag = conv_poland
+set_convoys = 3
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = POL }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = POL }
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1919.10.17"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 100
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = KSH
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = SCA
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = SHL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X29
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X30
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X37
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = KSH
+        puppet = SCA
+        puppet = SHL
+        puppet = X29
+        puppet = X30
+        puppet = X37
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = POL_research
+}
+
+give_guarantee = KSH
+diplomatic_relation = { country = KSH relation = non_aggression_pact }
+
+give_guarantee = SCA
+diplomatic_relation = { country = SCA relation = non_aggression_pact }
+
+give_guarantee = SHL
+diplomatic_relation = { country = SHL relation = non_aggression_pact }
+
+give_guarantee = X29
+diplomatic_relation = { country = X29 relation = non_aggression_pact }
+
+give_guarantee = X30
+diplomatic_relation = { country = X30 relation = non_aggression_pact }
+
+give_guarantee = X37
+diplomatic_relation = { country = X37 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = DEN modifier = negative_39 }
+add_opinion_modifier = { target = ENG modifier = negative_30 }
+add_opinion_modifier = { target = HAN modifier = positive_40 }
+add_opinion_modifier = { target = HOL modifier = negative_5 }
+add_opinion_modifier = { target = KSH modifier = positive_200 }
+add_opinion_modifier = { target = MEX modifier = negative_100 }
+add_opinion_modifier = { target = SCA modifier = positive_200 }
+add_opinion_modifier = { target = SHL modifier = positive_200 }
+add_opinion_modifier = { target = SIA modifier = negative_20 }
+add_opinion_modifier = { target = SIL modifier = negative_166 }
+add_opinion_modifier = { target = SPC modifier = negative_50 }
+add_opinion_modifier = { target = SWE modifier = negative_199 }
+add_opinion_modifier = { target = X25 modifier = positive_113 }
+add_opinion_modifier = { target = X29 modifier = positive_200 }
+add_opinion_modifier = { target = X30 modifier = positive_200 }
+add_opinion_modifier = { target = X32 modifier = negative_100 }
+add_opinion_modifier = { target = X33 modifier = negative_198 }
+add_opinion_modifier = { target = X37 modifier = positive_200 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X44 modifier = negative_200 }
+add_opinion_modifier = { target = X47 modifier = negative_110 }
+add_opinion_modifier = { target = X51 modifier = positive_31 }
+add_opinion_modifier = { target = X56 modifier = negative_100 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_polish
+}
+set_stability = 0.60
+set_war_support = 0.78
+
+recruit_character = POL_konstanty_taczanowski
+recruit_character = POL_bonawentura_chlopicki
+recruit_character = POL_wladyslaw_klicki
+recruit_character = POL_mieczyslaw_rozicky
+recruit_character = POL_edmund_sowinski
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Wiktoria Mikołajczykowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Konopczyńska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Dembińska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Wiktoria Iszikowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Konopczyńska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Sowińska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Wiktoria Zajączekowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Rózicka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Jasińska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Iszikowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Renata Wysocka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Iszikowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Wiktoria Sołtykowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Wawrzecka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Ostrowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Klicka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Wieniawa-Długoszowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Rybinska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Konopczyńska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Brzóska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Renata Klicka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Wiktoria Rózicka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Żeligowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Prądzyńska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Rómmelowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Trauguttowa"
+		GFX = "gfx/leaders/POL/portrait_pol_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Wilhelm Soltyk"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Samuel Kruszewski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Juliusz Chlaposwski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Marian Zajaczek"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Ignacy Chlaposwski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Roman Niepokólczycki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Eustachy Chalasinski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Tadeusz Brzóska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Mariusz Bem"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Kazimierz Rybinski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Wladyslaw Zaluski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Edmund Mieroslawski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Klemens Rola-Zymierski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Ignacy Iszikowski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Boleslaw Wybicki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Franciszek Ostrowski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Franciszek Langiewicz"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Jan Mikolajczyk"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Maciej Potocki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Jan Mierolawski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Ignacy Dabrowski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Bronislaw Zaluski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Antoni Preadzynski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Jakub Jasinski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Wladyslaw Taczaneowski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Leopold Dabrowski"
+		GFX = "gfx/leaders/POL/portrait_pol_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = POL_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = POL_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = POL_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	create_equipment_variant = {
+		name = "GW Heavy Tank"
+		type = heavy_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Light Tank"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/gwtank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Medium Tank"
+		type = medium_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/SOV_basic_heavy_tank.dds"
+	}
+}

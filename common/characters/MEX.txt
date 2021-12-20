@@ -1,0 +1,64 @@
+characters={
+	MEX_kianhoon_clackamas={
+		name=MEX_kianhoon_clackamas
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	MEX_panukuhike_chiluckittequaw={
+		name=MEX_panukuhike_chiluckittequaw
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	MEX_lecoutsaroushtu_chiluckittequaw={
+		name=MEX_lecoutsaroushtu_chiluckittequaw
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	MEX_tarahutacaw_cathlapotle={
+		name=MEX_tarahutacaw_cathlapotle
+		navy_leader={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	MEX_tearilari_yoncalla={
+		name=MEX_tearilari_yoncalla
+		portraits={
+			civilian={
+				large="gfx/leaders/North_American_Native/portrait_nat_north_neutral.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

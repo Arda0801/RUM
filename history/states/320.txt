@@ -1,0 +1,29 @@
+
+state={
+	id=320
+	name="STATE_320"
+
+	history={
+		owner = X33
+		victory_points = {
+			11580 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		614 619 3614 3617 3623 6643 9621 11580 11787 
+	}
+	manpower=1880208
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

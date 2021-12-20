@@ -1,0 +1,16 @@
+characters={
+	X18_rabiby_andriamahazo={
+		name=X18_rabiby_andriamahazo
+		portraits={
+			civilian={
+				large="gfx/leaders/Aborigine_Polynesia/Portrait_SOM_Aden_Daar.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

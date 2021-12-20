@@ -1,0 +1,64 @@
+characters={
+	X17_manthaturath_anuvong={
+		name=X17_manthaturath_anuvong
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X17_anurutha_intharavong={
+		name=X17_anurutha_intharavong
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X17_nanthasen_bun={
+		name=X17_nanthasen_bun
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X17_setthathirath_bun={
+		name=X17_setthathirath_bun
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X17_setthathirath_intharavong={
+		name=X17_setthathirath_intharavong
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

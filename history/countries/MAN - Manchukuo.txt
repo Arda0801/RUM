@@ -1,0 +1,430 @@
+﻿capital = 163
+set_research_slots = 3
+
+oob = "MAN_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "MAN_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "MAN_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = land_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = land_doctrine
+}
+
+set_country_flag = conv_siberia
+set_convoys = 3
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1825.4.17"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+give_guarantee = X47
+diplomatic_relation = { country = X47 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = BHU modifier = negative_200 }
+set_truce = { target = BHU days = 1559 }
+add_opinion_modifier = { target = BOL modifier = positive_40 }
+add_opinion_modifier = { target = BRA modifier = negative_180 }
+add_opinion_modifier = { target = ENG modifier = negative_195 }
+add_opinion_modifier = { target = HOL modifier = negative_60 }
+add_opinion_modifier = { target = JAP modifier = negative_117 }
+add_opinion_modifier = { target = RAJ modifier = negative_10 }
+add_opinion_modifier = { target = SIA modifier = negative_5 }
+add_opinion_modifier = { target = SPC modifier = negative_200 }
+add_opinion_modifier = { target = SRL modifier = negative_5 }
+add_opinion_modifier = { target = SWE modifier = positive_33 }
+give_military_access = SWE
+add_opinion_modifier = { target = VIN modifier = negative_16 }
+add_opinion_modifier = { target = X01 modifier = positive_32 }
+add_opinion_modifier = { target = X04 modifier = positive_20 }
+add_opinion_modifier = { target = X09 modifier = negative_200 }
+add_opinion_modifier = { target = X11 modifier = negative_30 }
+add_opinion_modifier = { target = X19 modifier = negative_20 }
+add_opinion_modifier = { target = X21 modifier = negative_194 }
+set_truce = { target = X21 days = 1559 }
+add_opinion_modifier = { target = X24 modifier = negative_10 }
+add_opinion_modifier = { target = X25 modifier = negative_74 }
+give_military_access = X25
+add_opinion_modifier = { target = X33 modifier = negative_20 }
+give_military_access = X33
+add_opinion_modifier = { target = X36 modifier = positive_30 }
+give_military_access = X36
+add_opinion_modifier = { target = X38 modifier = negative_40 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X44 modifier = negative_70 }
+add_opinion_modifier = { target = X46 modifier = negative_10 }
+add_opinion_modifier = { target = X47 modifier = positive_200 }
+add_opinion_modifier = { target = X49 modifier = negative_40 }
+add_opinion_modifier = { target = X53 modifier = negative_20 }
+add_opinion_modifier = { target = X55 modifier = negative_80 }
+add_opinion_modifier = { target = X56 modifier = negative_195 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_manchu
+}
+set_stability = 0.60
+set_war_support = 0.67
+
+recruit_character = MAN_songgotu_xingde
+recruit_character = MAN_guan_shangzhi
+recruit_character = MAN_guan_zhanshan
+recruit_character = MAN_tong_zhanshan
+recruit_character = MAN_king_fulin_ii
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Xiurong Zhanshan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Shouying Zhanshan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Suzhen Zhanshan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Mao Xingde"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Yuantong Zhanshan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Yuantong Xingde"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Yanxiang Linge"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Fuyuan Xingde"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Luzhen Zhanshan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Ruirong Tiemei"
+		GFX = "gfx/leaders/CHI/portrait_chi_yoshiko_kawashima.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Hesehn Zhanshan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Songgotu Xingde"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Changlin Tiemei"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Deng Tiemei"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Suksaha Tiemei"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Changlin Kang'an"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Ma Kang'an"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Songgotu Xingde"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAN }
+	}
+
+	create_operative_leader = {
+		name = "Tong Zhanshan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAN }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = MAN_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = MAN_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = MAN_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

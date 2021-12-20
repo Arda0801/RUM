@@ -1,0 +1,76 @@
+characters={
+	HOL_barthout_brouwer={
+		name=HOL_barthout_brouwer
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	HOL_karel_van_noort={
+		name=HOL_karel_van_noort
+		corps_commander={
+			skill=3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = 0
+		}
+	}
+
+	HOL_karel_van_dambenoy={
+		name=HOL_karel_van_dambenoy
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	HOL_merkus_ellis={
+		name=HOL_merkus_ellis
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	HOL_daniel_van_culemborg={
+		name=HOL_daniel_van_culemborg
+		navy_leader={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	HOL_willem_nepveu={
+		name=HOL_willem_nepveu
+		portraits={
+			civilian={
+				large="gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

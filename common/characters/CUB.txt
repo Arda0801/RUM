@@ -1,0 +1,76 @@
+characters={
+	CUB_jesus_xculoc={
+		name=CUB_jesus_xculoc
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	CUB_armando_okop={
+		name=CUB_armando_okop
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	CUB_hernando_gucumatz={
+		name=CUB_hernando_gucumatz
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	CUB_antonio_labna={
+		name=CUB_antonio_labna
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	CUB_luis_ucanal={
+		name=CUB_luis_ucanal
+		navy_leader={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	CUB_akbal_xcalumkin={
+		name=CUB_akbal_xcalumkin
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/r56_portrait_generic_politician_south_america_1.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

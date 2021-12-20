@@ -1,0 +1,398 @@
+﻿capital = 110
+set_research_slots = 3
+
+oob = "X10_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X10_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X10_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	synth_oil_experiments = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_indonesia
+set_convoys = 1
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1898.9.7"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+add_opinion_modifier = { target = ENG modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = negative_10 }
+add_opinion_modifier = { target = PHI modifier = positive_15 }
+add_opinion_modifier = { target = POR modifier = positive_30 }
+add_opinion_modifier = { target = SIA modifier = negative_18 }
+give_military_access = SIA
+add_opinion_modifier = { target = SRL modifier = negative_20 }
+add_opinion_modifier = { target = X11 modifier = positive_10 }
+add_opinion_modifier = { target = X13 modifier = negative_20 }
+add_opinion_modifier = { target = X16 modifier = positive_20 }
+add_opinion_modifier = { target = X19 modifier = positive_5 }
+add_opinion_modifier = { target = X24 modifier = positive_20 }
+add_opinion_modifier = { target = X32 modifier = negative_10 }
+add_opinion_modifier = { target = X33 modifier = positive_37 }
+add_opinion_modifier = { target = X38 modifier = positive_10 }
+add_opinion_modifier = { target = X43 modifier = positive_20 }
+add_opinion_modifier = { target = X44 modifier = negative_30 }
+add_opinion_modifier = { target = X49 modifier = negative_20 }
+add_opinion_modifier = { target = X53 modifier = negative_20 }
+add_opinion_modifier = { target = X55 modifier = negative_20 }
+add_opinion_modifier = { target = X56 modifier = positive_20 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	free_trade
+	culture_malay
+}
+set_stability = 0.60
+set_war_support = 0.85
+
+recruit_character = X10_isandar_al_marhum
+recruit_character = X10_abdullah_murshidul
+recruit_character = X10_ali_al_marhum
+recruit_character = X10_isandar_riayat_shah
+recruit_character = X10_ali_raja_ahmad
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Metetini Muadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Poehina Aadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Nu’utea Murshidul"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Azura Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Orama Murshidul"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Metetini Bendahara"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Merenui Raja Inu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Poehina Raja Inu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Nu’utea Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Aziz al-Marhum"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Ali al-Marhum"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Yusuf al-Khairat"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Riayat al-Marhum"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Al-Mukammal Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Tuanku Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Idris Raja Inu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Riayat Raja Inu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X10 }
+	}
+
+	create_operative_leader = {
+		name = "Shahabuddin Raja Ahmad"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X10 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X10_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X10_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X10_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

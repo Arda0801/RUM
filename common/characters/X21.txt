@@ -1,0 +1,76 @@
+characters={
+	X21_dong_shen={
+		name=X21_dong_shen
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X21_chen_shen={
+		name=X21_chen_shen
+		corps_commander={
+			skill=3
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X21_pan_ma={
+		name=X21_pan_ma
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X21_hsia_jin={
+		name=X21_hsia_jin
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X21_wang_tian={
+		name=X21_wang_tian
+		navy_leader={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X21_chen_peng={
+		name=X21_chen_peng
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

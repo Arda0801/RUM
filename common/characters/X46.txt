@@ -1,0 +1,28 @@
+characters={
+	X46_bernhard_vogel_von_falkenstein={
+		name=X46_bernhard_vogel_von_falkenstein
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X46_august_von_hessen_darmstadt={
+		name=X46_august_von_hessen_darmstadt
+		portraits={
+			civilian={
+				large="gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

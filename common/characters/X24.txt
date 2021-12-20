@@ -1,0 +1,76 @@
+characters={
+	X24_sigurdur_johanesson={
+		name=X24_sigurdur_johanesson
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X24_magnus_eggers={
+		name=X24_magnus_eggers
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X24_asgeir_steinthosson={
+		name=X24_asgeir_steinthosson
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X24_eidur_thordarson={
+		name=X24_eidur_thordarson
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X24_jon_thorhallson={
+		name=X24_jon_thorhallson
+		navy_leader={
+			skill=2
+			attack_skill = 4
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X24_hannes_thurs={
+		name=X24_hannes_thurs
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,28 @@
+characters={
+	X28_maha_bandula={
+		name=X28_maha_bandula
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	X28_zeya_bagyidaw={
+		name=X28_zeya_bagyidaw
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=33
+	name="STATE_33"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = BHU
+		victory_points = {
+			10772 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X31
+		add_core_of = X32
+	}
+
+	provinces={
+		1107 1129 2076 4979 7106 7903 8007 8022 8106 9084 10066 10139 10173 10772 10843 10887 10898 12005 12708 12792 12822 
+	}
+	manpower=5229804
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

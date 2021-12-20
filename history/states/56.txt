@@ -1,0 +1,32 @@
+
+state={
+	id=56
+	name="STATE_56"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			5200 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		2111 2142 2147 2181 2204 5115 5148 5200 5208 8140 8175 8189 8224 10959 11010 12939 12951 12959 12987 
+	}
+	manpower=693628
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

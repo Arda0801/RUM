@@ -1,0 +1,29 @@
+
+state={
+	id=220
+	name="STATE_220"
+
+	history={
+		owner = X24
+		victory_points = {
+			1655 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X24
+	}
+
+	provinces={
+		720 1655 4508 7611 9682 10461 
+	}
+	manpower=149836
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

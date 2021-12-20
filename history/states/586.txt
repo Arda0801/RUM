@@ -1,0 +1,38 @@
+
+state={
+	id=586
+	name="STATE_586"
+	resources={
+		chromium=3.000
+		steel=3.000
+		tungsten=10.000
+	}
+
+	history={
+		owner = SIA
+		victory_points = {
+			11936 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			4379 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = VIN
+		add_core_of = X22
+	}
+
+	provinces={
+		1302 4379 4397 7280 9988 10016 11909 11936 12297 
+	}
+	manpower=1776416
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

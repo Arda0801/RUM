@@ -1,0 +1,34 @@
+
+state={
+	id=645
+	name="STATE_645"
+	resources={
+		aluminium=2.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X50
+		victory_points = {
+			5013 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X50
+	}
+
+	provinces={
+		5013 8065 
+	}
+	manpower=521892
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

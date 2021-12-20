@@ -1,0 +1,32 @@
+
+state={
+	id=44
+	name="STATE_44"
+
+	history={
+		owner = BOL
+		victory_points = {
+			12994 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12994 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = BOL
+	}
+
+	provinces={
+		5131 5146 5171 8217 8231 12994 
+	}
+	manpower=1253272
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

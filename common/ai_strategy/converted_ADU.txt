@@ -1,0 +1,71 @@
+﻿converted_war_strategies_ADU = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X33"
+		value = 4577
+	}
+}
+
+converted_diplo_strategies_ADU = {
+	enable = {
+		tag = ADU
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X33"
+		value = 252
+	}
+	ai_strategy = {
+		type = contain
+		id = "SPC"
+		value = 212
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 98
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 21
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPC"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X33"
+		value = 178
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POL"
+		value = 42
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = 13
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SPC"
+		value = 106
+	}
+}

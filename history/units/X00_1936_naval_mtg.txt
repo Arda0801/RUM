@@ -1,0 +1,47 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3274
+		task_force = {
+			name = "1st Fleet"
+			location = 3274
+			ship = { name = "Derfflinger" definition = battleship start_experience_factor = 0.2985 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X00 version_name = "1936 Battleship" } } }
+			ship = { name = "Friedrich der GroÃŸe" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X00 version_name = "1936 Battleship" } } }
+			ship = { name = "Goeben" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X00 version_name = "1936 Battleship" } } }
+			ship = { name = "GroÃŸer KurfÃ¼rst" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X00 version_name = "1936 Battleship" } } }
+			ship = { name = "Helgoland" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X00 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Cardigan Battleship" definition = heavy_cruiser start_experience_factor = 0.24975 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X00 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Cardigan Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X00 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Blitz" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X00 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Bremen" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X00 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Amazone" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X00 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Arcona" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X00 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ariadne" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X00 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Berlin" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X00 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "BlÃ¼cher" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X00 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "X00"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "X00"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

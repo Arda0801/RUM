@@ -1,0 +1,33 @@
+
+state={
+	id=464
+	name="STATE_464"
+
+	history={
+		owner = X33
+		victory_points = {
+			2188 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			2188 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		2188 
+	}
+	manpower=228552
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

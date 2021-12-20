@@ -1,0 +1,29 @@
+
+state={
+	id=519
+	name="STATE_519"
+
+	history={
+		owner = X33
+		victory_points = {
+			1745 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		1722 1745 2853 2877 3184 7817 10589 
+	}
+	manpower=1053752
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

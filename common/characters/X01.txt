@@ -1,0 +1,52 @@
+characters={
+	X01_maha_thura={
+		name=X01_maha_thura
+		corps_commander={
+			skill=4
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 5
+			legacy_id = 0
+		}
+	}
+
+	X01_gabyidaw_ne_myo={
+		name=X01_gabyidaw_ne_myo
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X01_mindon_min={
+		name=X01_mindon_min
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X01_thibaw_min={
+		name=X01_thibaw_min
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=448
+	name="STATE_448"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			1984 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		1984 2040 2072 4954 5041 5097 7944 
+	}
+	manpower=2042984
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

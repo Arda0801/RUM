@@ -1,0 +1,64 @@
+characters={
+	X00_adelfrid_hrothsige={
+		name=X00_adelfrid_hrothsige
+		corps_commander={
+			skill=4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 5
+			legacy_id = 0
+		}
+	}
+
+	X00_leofwine_brownlowe={
+		name=X00_leofwine_brownlowe
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 5
+			legacy_id = 0
+		}
+	}
+
+	X00_hrothgar_coldren={
+		name=X00_hrothgar_coldren
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X00_ealhstan_cerdic={
+		name=X00_ealhstan_cerdic
+		navy_leader={
+			skill=2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X00_ealhstan_leofwine={
+		name=X00_ealhstan_leofwine
+		portraits={
+			civilian={
+				large="gfx/leaders/Romantic_Barbarian/portrait_SPQR_Aemilian.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

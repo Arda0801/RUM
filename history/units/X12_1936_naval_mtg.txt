@@ -1,0 +1,51 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10919
+		task_force = {
+			name = "1st Fleet"
+			location = 10919
+			ship = { name = "Assegai" definition = destroyer start_experience_factor = 0.04738 equipment = { ship_hull_light_1 = { amount = 1 owner = X12 version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 10862
+		task_force = {
+			name = "3rd Fleet"
+			location = 10862
+			ship = { name = "Dingane" definition = destroyer start_experience_factor = 0.04584 equipment = { ship_hull_light_1 = { amount = 1 owner = X12 version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10919
+		task_force = {
+			name = "4th Fleet"
+			location = 10919
+			ship = { name = "Shaka Zulu" definition = destroyer start_experience_factor = 0.04625 equipment = { ship_hull_light_1 = { amount = 1 owner = X12 version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 6039
+		task_force = {
+			name = "6th Fleet"
+			location = 6039
+			ship = { name = "KwaZulu" definition = destroyer start_experience_factor = 0.04356 equipment = { ship_hull_light_1 = { amount = 1 owner = X12 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X12"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=567
+	name="STATE_567"
+	resources={
+		tungsten=32.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			4971 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = X31
+		add_core_of = X32
+	}
+
+	provinces={
+		1908 2054 4149 4971 4984 7905 7998 10847 10866 12041 12718 12844 12876 12886 
+	}
+	manpower=6023704
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

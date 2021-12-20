@@ -1,0 +1,36 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 11600
+		task_force = {
+			name = "2nd Fleet"
+			location = 11600
+			ship = { name = "Alfons el Cast" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SPC } } }
+			ship = { name = "1st Toulon Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SPC } } }
+			ship = { name = "Ateneu de Grandesa" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SPC } } }
+			ship = { name = "Cibeles" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SPC } } }
+			ship = { name = "Consolat del Mar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SPC } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "SPC"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "SPC"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

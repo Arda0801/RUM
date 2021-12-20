@@ -1,0 +1,35 @@
+
+state={
+	id=209
+	name="STATE_209"
+
+	history={
+		owner = HOL
+		victory_points = {
+			336 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			241 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = HOL
+		add_core_of = POL
+		add_claim_by = DEN
+		add_claim_by = SCA
+	}
+
+	provinces={
+		241 336 11360 
+	}
+	manpower=782632
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

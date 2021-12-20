@@ -1,0 +1,167 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 12406
+		task_force = {
+			name = "4th Fleet"
+			location = 12406
+			ship = { name = "2nd Sydney Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "3rd Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "14th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "10th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "11th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "5th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "2nd Melbourne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "8th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "13th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "4th Brisbane Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "2nd Brisbane Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "3rd Brisbane Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "6th Melbourne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "2nd Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "5th Brisbane Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Palmerston Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "6th Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "11th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "2nd Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "2nd Adelaide Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "8th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "3rd Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "4th Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "4th Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "12th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "4th Adelaide Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "3rd Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "5th Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "7th Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "5th Adelaide Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "6th Adelaide Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "9th Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "15th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7798
+		task_force = {
+			name = "2nd Fleet"
+			location = 7798
+			ship = { name = "3rd Melbourne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "6th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "5th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "2nd Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12406
+		task_force = {
+			name = "1st Fleet"
+			location = 12406
+			ship = { name = "13th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 10124
+		task_force = {
+			name = "3rd Fleet"
+			location = 4912
+			ship = { name = "3rd Sydney Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Brisbane Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "3rd Melbourne Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "9th Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "10th Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "6th Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 10124
+		task_force = {
+			name = "6th Fleet"
+			location = 5294
+			ship = { name = "4th Sydney Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "11th Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 7669
+		task_force = {
+			name = "8th Fleet"
+			location = 7669
+			ship = { name = "1st Sydney Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "2nd Melbourne Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Adelaide Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Melbourne Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "15th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "16th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "14th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "8th Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "7th Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "7th Adelaide Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "10th Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "8th Brisbane Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Palmerston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 12406
+		task_force = {
+			name = "5th Fleet"
+			location = 12406
+			ship = { name = "12th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "4th Melbourne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "5th Melbourne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "7th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "4th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Brisbane Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "6th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "5th Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "9th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "10th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Adelaide Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 7798
+		task_force = {
+			name = "7th Fleet"
+			location = 7798
+			ship = { name = "1st Melbourne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "9th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "7th Melbourne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "1st Adelaide Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "3rd Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "3rd Adelaide Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "7th Sydney Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X56 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X56"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X56"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

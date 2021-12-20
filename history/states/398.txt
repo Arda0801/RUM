@@ -1,0 +1,36 @@
+
+state={
+	id=398
+	name="STATE_398"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			2029 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			1920 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		1920 1973 2029 4924 4976 5074 8000 10752 10840 12821 12894 13079 
+	}
+	manpower=2540376
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=92
+	name="STATE_92"
+
+	history={
+		owner = ENG
+		victory_points = {
+			9495 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			11465 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		527 9495 11465 11508 11616 
+	}
+	manpower=790572
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=347
+	name="STATE_347"
+
+	history={
+		owner = X33
+		victory_points = {
+			1065 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			792 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		792 1065 1108 11919 
+	}
+	manpower=1421580
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

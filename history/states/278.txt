@@ -1,0 +1,32 @@
+
+state={
+	id=278
+	name="STATE_278"
+
+	history={
+		owner = X33
+		victory_points = {
+			9793 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			7114 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = ADU
+	}
+
+	provinces={
+		7114 9793 9845 
+	}
+	manpower=659580
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

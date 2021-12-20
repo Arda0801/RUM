@@ -1,0 +1,36 @@
+
+state={
+	id=340
+	name="STATE_340"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			975 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 2
+			975 = {
+				naval_base = 1
+			}
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		652 960 975 3714 3903 3935 3950 3965 3979 6919 6950 6976 6991 9777 9868 9886 9932 9954 11797 11853 11894 
+	}
+	manpower=3446892
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

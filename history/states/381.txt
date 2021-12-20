@@ -1,0 +1,35 @@
+
+state={
+	id=381
+	name="STATE_381"
+	resources={
+		chromium=15.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			1599 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			772 = {
+				naval_base = 1
+			}
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		654 672 772 1455 1530 1599 3656 3658 3667 4534 4605 6436 6669 6671 6674 9626 9632 9702 11599 11609 11617 11647 12309 
+	}
+	manpower=2054704
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

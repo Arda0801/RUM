@@ -1,0 +1,35 @@
+
+state={
+	id=236
+	name="STATE_236"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			6535 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = X25
+		add_core_of = X46
+		add_claim_by = HAN
+		add_claim_by = HOL
+	}
+
+	provinces={
+		405 495 3355 3398 3512 6535 6622 9443 9509 9547 11346 11431 11533 
+	}
+	manpower=4497080
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

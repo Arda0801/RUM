@@ -1,0 +1,199 @@
+﻿capital = 401
+set_research_slots = 2
+
+oob = "X54_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X54_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X54_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_central_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1825.4.17"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 83
+	neutrality = 17
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_20 }
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = BOL modifier = positive_20 }
+add_opinion_modifier = { target = BRA modifier = positive_20 }
+add_opinion_modifier = { target = CUB modifier = positive_20 }
+add_opinion_modifier = { target = DEN modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = negative_10 }
+add_opinion_modifier = { target = POR modifier = positive_30 }
+add_opinion_modifier = { target = SIA modifier = negative_20 }
+add_opinion_modifier = { target = SRL modifier = negative_20 }
+add_opinion_modifier = { target = VIN modifier = negative_20 }
+add_opinion_modifier = { target = X04 modifier = positive_20 }
+add_opinion_modifier = { target = X05 modifier = positive_20 }
+add_opinion_modifier = { target = X11 modifier = positive_10 }
+add_opinion_modifier = { target = X13 modifier = negative_20 }
+add_opinion_modifier = { target = X16 modifier = positive_20 }
+add_opinion_modifier = { target = X19 modifier = negative_20 }
+add_opinion_modifier = { target = X24 modifier = positive_20 }
+add_opinion_modifier = { target = X38 modifier = positive_10 }
+add_opinion_modifier = { target = X43 modifier = positive_20 }
+add_opinion_modifier = { target = X44 modifier = positive_20 }
+add_opinion_modifier = { target = X49 modifier = negative_20 }
+add_opinion_modifier = { target = X53 modifier = negative_20 }
+add_opinion_modifier = { target = X55 modifier = negative_20 }
+add_opinion_modifier = { target = X56 modifier = positive_20 }
+
+
+add_ideas = {
+	uncivilized
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_uzbek
+}
+
+recruit_character = X54_king_muhammad
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Selcen Abdulayeva"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Kyu Niyazova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Kyu Bahadur"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Selcen Zelenskaya"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Leyla Yusupova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Ramilya Abdulova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Abd al-Karim Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Yaqub Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Umar Bukhari"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Alimqul Bahadur"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Allah Quli Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X54 }
+	}
+
+	create_operative_leader = {
+		name = "Abd al-Ahad Bukhari"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X54 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

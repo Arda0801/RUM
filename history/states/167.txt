@@ -1,0 +1,36 @@
+
+state={
+	id=167
+	name="STATE_167"
+	resources={
+		steel=2.000
+		tungsten=9.000
+	}
+
+	history={
+		owner = MAN
+		victory_points = {
+			7155 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			1003 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAN
+	}
+
+	provinces={
+		1003 4107 7070 7155 9981 10065 11915 12040 
+	}
+	manpower=1789092
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

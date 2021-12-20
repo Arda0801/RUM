@@ -1,0 +1,33 @@
+
+state={
+	id=303
+	name="STATE_303"
+	resources={
+		aluminium=3.000
+		steel=4.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			3780 7 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		603 607 773 969 3776 3780 6661 9584 11568 11587 
+	}
+	manpower=7917468
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

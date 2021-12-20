@@ -1,0 +1,64 @@
+characters={
+	X39_muhammad_natadiningrat={
+		name=X39_muhammad_natadiningrat
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X39_ahmad_emiruddin={
+		name=X39_ahmad_emiruddin
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X39_anom_mufakhir={
+		name=X39_anom_mufakhir
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 5
+			legacy_id = 0
+		}
+	}
+
+	X39_cirebon_salihin={
+		name=X39_cirebon_salihin
+		navy_leader={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X39_panembahan_salihin={
+		name=X39_panembahan_salihin
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

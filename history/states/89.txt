@@ -1,0 +1,37 @@
+
+state={
+	id=89
+	name="STATE_89"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			6103 40 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			6489 = {
+				naval_base = 8
+			}
+			air_base = 10
+
+		}
+		add_core_of = ENG
+		add_core_of = X00
+	}
+
+	provinces={
+		507 3501 6103 6221 6489 9239 9458 11333 11446 11471 13070 
+	}
+	manpower=6894492
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

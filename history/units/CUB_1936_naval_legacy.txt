@@ -1,0 +1,63 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 153
+		task_force = {
+			name = "1st Fleet"
+			location = 5633
+			ship = { name = "Antonio Maceo" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Bartolomé Masó" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Carlos M. de Céspedes" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Carlos Roloff" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Héroes de Cuba" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "José Martí" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Máximo Gómez" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Salvador Cisneros" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "4th Jagua Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "1st Jagua Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "2nd Jagua Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "3rd Jagua Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Caribe" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Cuba" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Florida" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Guajiro" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Isla Fernandina" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Isla Juana" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "José Antonio Aponte" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Joya del Caribe" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Nicolás Morales" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "Patria" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+			ship = { name = "1st Jagua Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 7451
+		task_force = {
+			name = "3rd Fleet"
+			location = 7451
+			ship = { name = "2nd Jagua Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CUB } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "CUB"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "CUB"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

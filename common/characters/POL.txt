@@ -1,0 +1,64 @@
+characters={
+	POL_konstanty_taczanowski={
+		name=POL_konstanty_taczanowski
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	POL_bonawentura_chlopicki={
+		name=POL_bonawentura_chlopicki
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	POL_wladyslaw_klicki={
+		name=POL_wladyslaw_klicki
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	POL_mieczyslaw_rozicky={
+		name=POL_mieczyslaw_rozicky
+		navy_leader={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	POL_edmund_sowinski={
+		name=POL_edmund_sowinski
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/portrait_lat_karlis_ulmanis.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

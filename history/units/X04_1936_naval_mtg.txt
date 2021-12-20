@@ -1,0 +1,68 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12281
+		task_force = {
+			name = "1st Fleet"
+			location = 2774
+			ship = { name = "1st Portland Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Portland Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Vancouver Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Seattle Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Portland Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Vancouver Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Dutch Harbor Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Seattle Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Westminster" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Seattle Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Portland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Dutch Harbor Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Vancouver Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Seattle Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Seattle Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Portland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 1408
+		task_force = {
+			name = "2nd Fleet"
+			location = 1408
+			ship = { name = "Columbia" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "Victoria" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "Vancouver" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "Finlay" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Dutch Harbor Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X04 version_name = "1936 Battleship" } } }
+			ship = { name = "Mackenzie" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Fraser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cook" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Drake" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Dutch Harbor Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Dutch Harbor Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X04 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "X04"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "X04"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

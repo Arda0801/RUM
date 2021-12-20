@@ -1,0 +1,36 @@
+
+state={
+	id=426
+	name="STATE_426"
+	resources={
+		steel=11.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			11964 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			1112 = {
+				naval_base = 1
+			}
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		1112 1155 4073 4161 7091 9947 10002 10005 10099 11922 11964 11979 12004 12049 12073 
+	}
+	manpower=2969548
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

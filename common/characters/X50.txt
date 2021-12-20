@@ -1,0 +1,64 @@
+characters={
+	X50_kofi_karikari={
+		name=X50_kofi_karikari
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X50_kofi_dua={
+		name=X50_kofi_dua
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X50_kwabena_fofie={
+		name=X50_kwabena_fofie
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X50_akyampon_bonsu={
+		name=X50_akyampon_bonsu
+		corps_commander={
+			skill=3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X50_onsei_karikari={
+		name=X50_onsei_karikari
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

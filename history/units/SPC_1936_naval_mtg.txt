@@ -1,0 +1,38 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 11600
+		task_force = {
+			name = "2nd Fleet"
+			location = 11600
+			ship = { name = "Alfons el Cast" definition = battleship start_experience_factor = 0.23373 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPC version_name = "1936 Battleship" } } }
+			ship = { name = "1st Toulon Battleship" definition = heavy_cruiser start_experience_factor = 0.23764 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPC version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Ateneu de Grandesa" definition = light_cruiser start_experience_factor = 0.24287 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPC version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cibeles" definition = light_cruiser start_experience_factor = 0.24481 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPC version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Consolat del Mar" definition = light_cruiser start_experience_factor = 0.24579 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPC version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SPC"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "SPC"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

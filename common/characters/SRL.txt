@@ -1,0 +1,76 @@
+characters={
+	SRL_vikrama_narendrasimha={
+		name=SRL_vikrama_narendrasimha
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SRL_wimalaratne_doraisami={
+		name=SRL_wimalaratne_doraisami
+		corps_commander={
+			skill=3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SRL_senarat_narendrasimha={
+		name=SRL_senarat_narendrasimha
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SRL_anagarika_doraisami={
+		name=SRL_anagarika_doraisami
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SRL_vijaya_dharmasurya={
+		name=SRL_vijaya_dharmasurya
+		navy_leader={
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SRL_vikrama_doraisami={
+		name=SRL_vikrama_doraisami
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

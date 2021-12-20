@@ -1,0 +1,36 @@
+
+state={
+	id=297
+	name="STATE_297"
+	resources={
+		oil=28.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			657 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			657 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		657 687 3076 9614 9635 11597 
+	}
+	manpower=1666484
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

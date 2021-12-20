@@ -1,0 +1,76 @@
+characters={
+	X51_jaoua_peron={
+		name=X51_jaoua_peron
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X51_henri_le_goff={
+		name=X51_henri_le_goff
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X51_henri_deschamps={
+		name=X51_henri_deschamps
+		corps_commander={
+			skill=2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X51_michel_kergoulay={
+		name=X51_michel_kergoulay
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X51_michel_marchand={
+		name=X51_michel_marchand
+		navy_leader={
+			skill=2
+			attack_skill = 5
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X51_fransez_fabron={
+		name=X51_fransez_fabron
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Oswald_Mosley.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

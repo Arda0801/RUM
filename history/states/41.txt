@@ -1,0 +1,34 @@
+
+state={
+	id=41
+	name="STATE_41"
+	resources={
+		oil=2.000
+		steel=1.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = BOL
+		victory_points = {
+			2174 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = BOL
+	}
+
+	provinces={
+		2174 10952 
+	}
+	manpower=2920444
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

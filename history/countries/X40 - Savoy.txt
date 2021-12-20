@@ -1,0 +1,889 @@
+﻿capital = 498
+set_research_slots = 3
+
+oob = "X40_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X40_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X40_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_france
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1874.10.17"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 82
+	neutrality = 18
+}
+
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = DEN modifier = negative_15 }
+add_opinion_modifier = { target = ENG modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = negative_62 }
+give_military_access = HOL
+add_opinion_modifier = { target = NOR modifier = negative_5 }
+add_opinion_modifier = { target = PHI modifier = positive_5 }
+add_opinion_modifier = { target = POR modifier = negative_20 }
+add_opinion_modifier = { target = SWE modifier = negative_5 }
+add_opinion_modifier = { target = X04 modifier = negative_30 }
+add_opinion_modifier = { target = X05 modifier = negative_30 }
+add_opinion_modifier = { target = X07 modifier = negative_10 }
+add_opinion_modifier = { target = X16 modifier = negative_10 }
+add_opinion_modifier = { target = X24 modifier = negative_10 }
+add_opinion_modifier = { target = X25 modifier = negative_198 }
+add_opinion_modifier = { target = X32 modifier = negative_10 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X44 modifier = negative_10 }
+add_opinion_modifier = { target = X47 modifier = negative_10 }
+add_opinion_modifier = { target = X51 modifier = negative_30 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_french
+}
+
+recruit_character = X40_hubert_bouet_willaumez
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Anne Boulanger"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Vaillant"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Duchêne"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie de Montaignac"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Humbert"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Jaurès"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Bazaine"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Baraguey d'Hilliers"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Dubail"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Courbet"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Lyautey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Davout"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Anthoine"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Bugeaud"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Lyautey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Murat"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Hoche"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Davout"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne de Castellane"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Péllissier"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Gouraud"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Petain"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Gouraud"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Davout"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Gouraud"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Duchêne"
+		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Dubois"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Vaillant"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Hoche"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Duchêne"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Péllissier"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Augustin Anthoine"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Amédée Jaurès"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Daniel de Castellane"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Thibaut Joffre"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Achille Bouët-Willaumez"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Thibaut Bazaine"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Matthieu Péllissier"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Léopold de Bourbon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Amédée Nivelle"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Amédée Petain"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Frédéric de Bourbon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Georges Vaillant"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Hugo Humbert"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Adrien Vaillant"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Augustin de Saint Arnaud"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Matthieu Murat"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Patrice Anthoine"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Patrice Anthoine"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Thibaut de Montaignac"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Thibaut Hamelin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Guillaume Dubois"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Henri Lebouef"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Pierre de Castellane"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Paul Bouët-Willaumez"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Napoléon d'Orleans"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Joseph Dubois"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Éttiene Canrobert"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Robert Duchêne"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Fernand Hamelin"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Michel Bourbaki"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Édouard Bourbaki"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Guillaume Ney d'Elchingen"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Guillaume Vaillant"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Thibaut Bazaine"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Éttiene Hamelin"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Napoléon Joffre"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Guillaume Murat"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Lazare Forey"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Georges Gallieni"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Édouard Bosquet"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X40_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X40_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X40_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

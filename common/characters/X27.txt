@@ -1,0 +1,52 @@
+characters={
+	X27_narayan_singh={
+		name=X27_narayan_singh
+		corps_commander={
+			skill=4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 5
+			legacy_id = 0
+		}
+	}
+
+	X27_pheran_singh={
+		name=X27_pheran_singh
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X27_parbhu_singh={
+		name=X27_parbhu_singh
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X27_lokendra_singh={
+		name=X27_lokendra_singh
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_Madras_Periyar_Ramasavy.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=417
+	name="STATE_417"
+
+	history={
+		owner = X33
+		victory_points = {
+			11953 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1058 1126 1128 1141 1967 4018 4970 5053 7033 7149 9943 9960 9976 11953 12034 12888 
+	}
+	manpower=742340
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

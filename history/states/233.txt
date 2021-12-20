@@ -1,0 +1,32 @@
+
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			6568 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X25
+	}
+
+	provinces={
+		6568 6581 
+	}
+	manpower=1054204
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

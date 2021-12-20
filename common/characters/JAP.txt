@@ -1,0 +1,76 @@
+characters={
+	JAP_saito_kantaro={
+		name=JAP_saito_kantaro
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	JAP_matsuki_gonnohyoe={
+		name=JAP_matsuki_gonnohyoe
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	JAP_ito_kiyotaka={
+		name=JAP_ito_kiyotaka
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	JAP_hachisuka_yusaku={
+		name=JAP_hachisuka_yusaku
+		corps_commander={
+			skill=3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	JAP_ooka_samata={
+		name=JAP_ooka_samata
+		navy_leader={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 4
+			legacy_id = 0
+		}
+	}
+
+	JAP_hosokawa_kamio={
+		name=JAP_hosokawa_kamio
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

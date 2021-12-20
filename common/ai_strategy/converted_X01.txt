@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X01 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "BHU"
+		value = 1229
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X21"
+		value = 163
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X36"
+		value = 140
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIA"
+		value = 118
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X16"
+		value = 88
+	}
+}
+
+converted_diplo_strategies_X01 = {
+	enable = {
+		tag = X01
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X36"
+		value = 259
+	}
+	ai_strategy = {
+		type = contain
+		id = "BHU"
+		value = 251
+	}
+	ai_strategy = {
+		type = contain
+		id = "X21"
+		value = 249
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIA"
+		value = 182
+	}
+	ai_strategy = {
+		type = contain
+		id = "VIN"
+		value = 109
+	}
+	ai_strategy = {
+		type = contain
+		id = "X17"
+		value = 101
+	}
+	ai_strategy = {
+		type = contain
+		id = "X32"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BHU"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X21"
+		value = 118
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X36"
+		value = 99
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIA"
+		value = 87
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X16"
+		value = 27
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X33"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X49"
+		value = 42
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X55"
+		value = 8
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X56"
+		value = 1
+	}
+	ai_strategy = {
+		type = protect
+		id = "X17"
+		value = 96
+	}
+	ai_strategy = {
+		type = protect
+		id = "X32"
+		value = 95
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MAN"
+		value = 80
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VIN"
+		value = 35
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X12"
+		value = 29
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SAM"
+		value = 22
+	}
+}

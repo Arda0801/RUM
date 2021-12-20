@@ -1,0 +1,36 @@
+
+state={
+	id=168
+	name="STATE_168"
+	resources={
+		steel=5.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = MAN
+		victory_points = {
+			11948 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			11948 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAN
+	}
+
+	provinces={
+		1054 1081 4056 4086 4126 7121 10085 10110 11948 12060 12085 12089 
+	}
+	manpower=3027432
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

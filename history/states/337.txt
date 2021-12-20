@@ -1,0 +1,36 @@
+
+state={
+	id=337
+	name="STATE_337"
+	resources={
+		chromium=156.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			4112 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			1119 = {
+				naval_base = 1
+			}
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		785 928 1119 3927 4112 6864 6912 6992 7130 9799 9887 9921 9929 9941 10038 10041 10122 11778 11796 11848 11898 11917 12013 12096 
+	}
+	manpower=4027504
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

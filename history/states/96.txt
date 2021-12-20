@@ -1,0 +1,33 @@
+
+state={
+	id=96
+	name="STATE_96"
+
+	history={
+		owner = HAN
+		victory_points = {
+			6286 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			9335 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = HAN
+	}
+
+	provinces={
+		6286 9309 9335 9403 11318 
+	}
+	manpower=694364
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

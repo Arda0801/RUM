@@ -1,0 +1,29 @@
+
+state={
+	id=385
+	name="STATE_385"
+
+	history={
+		owner = X33
+		victory_points = {
+			4609 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		4580 4609 4637 7602 10385 10768 
+	}
+	manpower=1570768
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

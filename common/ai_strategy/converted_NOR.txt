@@ -1,0 +1,61 @@
+﻿converted_war_strategies_NOR = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X33"
+		value = 1770
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 1557
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SWE"
+		value = 1222
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X00"
+		value = 173
+	}
+}
+
+converted_diplo_strategies_NOR = {
+	enable = {
+		tag = NOR
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X33"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SWE"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X00"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X53"
+		value = 33
+	}
+}

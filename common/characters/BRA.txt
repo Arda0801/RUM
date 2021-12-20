@@ -1,0 +1,88 @@
+characters={
+	BRA_alexandros_smolenskis={
+		name=BRA_alexandros_smolenskis
+		corps_commander={
+			skill=3
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	BRA_staikos_plapoutas={
+		name=BRA_staikos_plapoutas
+		corps_commander={
+			skill=3
+			attack_skill = 3
+			defense_skill = 6
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	BRA_andreas_trikoupis={
+		name=BRA_andreas_trikoupis
+		corps_commander={
+			skill=3
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	BRA_kyriakoulis_plastiras={
+		name=BRA_kyriakoulis_plastiras
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	BRA_tzannis_smolenskis={
+		name=BRA_tzannis_smolenskis
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	BRA_tzannis_othonaios={
+		name=BRA_tzannis_othonaios
+		navy_leader={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	BRA_tzannis_mavrovouniotis={
+		name=BRA_tzannis_mavrovouniotis
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

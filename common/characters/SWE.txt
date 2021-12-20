@@ -1,0 +1,64 @@
+characters={
+	SWE_emil_strom={
+		name=SWE_emil_strom
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SWE_jesper_strom={
+		name=SWE_jesper_strom
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SWE_arnold_weidenhielm={
+		name=SWE_arnold_weidenhielm
+		corps_commander={
+			skill=2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SWE_gustav_chrsiterson={
+		name=SWE_gustav_chrsiterson
+		navy_leader={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SWE_lars_chrsiterson={
+		name=SWE_lars_chrsiterson
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_Austria_Kurt_Schuschnigg.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

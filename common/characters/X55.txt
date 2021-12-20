@@ -1,0 +1,76 @@
+characters={
+	X55_ramachandradeva_mishra={
+		name=X55_ramachandradeva_mishra
+		corps_commander={
+			skill=2
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X55_mukundadeva_rao={
+		name=X55_mukundadeva_rao
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X55_padmanavadeva_mohaptra={
+		name=X55_padmanavadeva_mohaptra
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	X55_mukundadeva_mishra={
+		name=X55_mukundadeva_mishra
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X55_gopinathdeva_mohaptra={
+		name=X55_gopinathdeva_mohaptra
+		navy_leader={
+			skill=3
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X55_birakishoredeva_rao={
+		name=X55_birakishoredeva_rao
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

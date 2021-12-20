@@ -1,0 +1,40 @@
+
+state={
+	id=29
+	name="STATE_29"
+	resources={
+		aluminium=4.000
+		chromium=12.000
+		steel=15.000
+	}
+
+	history={
+		owner = BHU
+		victory_points = {
+			10088 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			10088 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = BHU
+		add_core_of = X27
+		add_core_of = X32
+	}
+
+	provinces={
+		1059 1101 1538 4104 10060 10088 10116 12063 
+	}
+	manpower=2419680
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=574
+	name="STATE_574"
+	resources={
+		oil=3.000
+		tungsten=11.000
+	}
+
+	history={
+		owner = X36
+		victory_points = {
+			12366 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X32
+		add_core_of = X36
+	}
+
+	provinces={
+		1497 1525 7455 10349 12322 12366 12395 
+	}
+	manpower=3036116
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

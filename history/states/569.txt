@@ -1,0 +1,37 @@
+
+state={
+	id=569
+	name="STATE_569"
+	resources={
+		aluminium=3.000
+		chromium=0.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			188 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			188 = {
+				naval_base = 6
+			}
+			air_base = 6
+
+		}
+		add_core_of = SCA
+		add_claim_by = NOR
+	}
+
+	provinces={
+		188 3096 3180 9127 9216 11100 
+	}
+	manpower=229496
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

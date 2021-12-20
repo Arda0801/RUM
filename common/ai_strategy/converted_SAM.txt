@@ -1,0 +1,66 @@
+﻿converted_war_strategies_SAM = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "JAP"
+		value = 296
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X08"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X33"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_SAM = {
+	enable = {
+		tag = SAM
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X06"
+		value = 17
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "JAP"
+		value = 99
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X08"
+		value = 51
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X33"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X08"
+		value = 66
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X17"
+		value = 49
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X06"
+		value = 44
+	}
+}

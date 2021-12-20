@@ -1,0 +1,899 @@
+﻿capital = 269
+set_research_slots = 3
+
+oob = "NOR_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "NOR_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "NOR_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_scandinavia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1825.4.17"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = DEN modifier = positive_2 }
+add_opinion_modifier = { target = ENG modifier = negative_6 }
+add_opinion_modifier = { target = HAN modifier = positive_30 }
+add_opinion_modifier = { target = HOL modifier = positive_60 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = PHI modifier = positive_20 }
+add_opinion_modifier = { target = POR modifier = negative_20 }
+add_opinion_modifier = { target = RAJ modifier = negative_10 }
+add_opinion_modifier = { target = SHL modifier = positive_15 }
+add_opinion_modifier = { target = SIL modifier = negative_5 }
+add_opinion_modifier = { target = SPC modifier = positive_30 }
+add_opinion_modifier = { target = X04 modifier = negative_30 }
+add_opinion_modifier = { target = X05 modifier = negative_30 }
+add_opinion_modifier = { target = X07 modifier = negative_10 }
+add_opinion_modifier = { target = X16 modifier = negative_10 }
+add_opinion_modifier = { target = X24 modifier = positive_15 }
+add_opinion_modifier = { target = X25 modifier = negative_40 }
+add_opinion_modifier = { target = X29 modifier = positive_20 }
+add_opinion_modifier = { target = X32 modifier = negative_10 }
+add_opinion_modifier = { target = X33 modifier = positive_86 }
+add_opinion_modifier = { target = X37 modifier = positive_30 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X44 modifier = negative_10 }
+add_opinion_modifier = { target = X47 modifier = negative_10 }
+add_opinion_modifier = { target = X51 modifier = positive_10 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_icelandic
+}
+
+recruit_character = NOR_hermann_magnusson
+recruit_character = NOR_king_eirikr_iii
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Freydís Björnsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Boghildur Þórhallson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Boghildur Hafsteinsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Rafney Þursdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Bjarnhildur Magnúsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Gunnrún Hermannsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Rafney Þórdarson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Rafney Johánesdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Arnfrithur Ásgeirsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Bjarnhildur Eldjárnsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Bjarnhildur Johánesdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Freydís Steinþosdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Árný Þórhallson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Bjarnhildur Eggersdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Dómhildur Hafsteinsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Drótt Benediktsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Boghildur Þórdarson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Rafney Þursdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Rafney Þórdarson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Boghildur Arnórsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Gunnrún Johánesdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Drótt Stefánsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Dómhildur Eggersdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Drótt Hermannsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Arnfrithur Arnórsdóttir"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Dómhildur Hermannsdóttir"
+		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Gunnrún Stefánsdóttir"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Dómhildur Stefánsdóttir"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Arnfrithur Johánesdóttir"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Bjarnhildur Stefánsdóttir"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Árný Eldjárnsdóttir"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Emil Benediktsson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Emil Benediktsson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Tryggvi Johánesson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Magnús Eggers"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Einar Hansen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Jón Thorláksson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Jón Jónsson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Sveinn Bjarnasen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Björn Steinthosson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Gudmund Thórdarson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Hannes Eldjárn"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Hermann Thurs"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Emil Thórhallson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Ásgeir Hansen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Eidur Benediktsson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Eidur Thórhallson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kristján Bjarnasen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Agnar Hansen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Gudmund Thórdarson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Gunnar Thorláksson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Sigurdur Magnússon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Geir Johánesson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Emil Bjarnasen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Emil Thórhallson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Stefán Thórdarson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Hermann Thórhallson"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Jón Jónsson"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Hermann Arnórsson"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Sigurdur Magnússon"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Ólafur Johánesson"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kristján Bjarnasen"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Sveinn Johánesson"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Sveinn Eldjárn"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Gudmund Hermannsson"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Eidur Eggers"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Geir Hermannsson"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Ásgeir Eldjárn"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Jón Thurs"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Hannes Johánesson"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Björn Benediktsson"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = NOR_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = NOR_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = NOR_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=507
+	name="STATE_507"
+
+	history={
+		owner = X33
+		victory_points = {
+			3846 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			3866 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = ADU
+	}
+
+	provinces={
+		980 3790 3846 3866 3886 3926 6880 6884 6933 6986 9765 9819 9869 
+	}
+	manpower=1347392
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

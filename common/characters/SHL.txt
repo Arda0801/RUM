@@ -1,0 +1,28 @@
+characters={
+	SHL_macij_grzymala={
+		name=SHL_macij_grzymala
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SHL_albert_nawka={
+		name=SHL_albert_nawka
+		portraits={
+			civilian={
+				large="gfx/leaders/CZE/Portrait_Czech_Edvard_Benes.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

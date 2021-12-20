@@ -1,0 +1,403 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_ADU_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ARG_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BAY_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BHU_monarch"
+		texturefile = "gfx/interface/ideas/idea_raj_indian_gentlemen_officers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BOL_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CUB_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DEN_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HAN_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HOL_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_monarch"
+		texturefile = "gfx/interface/goals/focus_jap_pacific_guardian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSH_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_LIB_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MAD_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MAL_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NOR_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PHI_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POL_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POR_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_monarch"
+		texturefile = "gfx/interface/ideas/idea_raj_indian_gentlemen_officers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAF_monarch"
+		texturefile = "gfx/interface/ideas/crowns/brazil_shield.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAM_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SCA_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SHL_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIL_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SPC_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SRL_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SWE_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VIN_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X00_monarch"
+		texturefile = "gfx/interface/ideas/crowns/camp_crown.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X01_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X02_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X03_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X04_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X05_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X06_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X07_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X08_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X09_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X10_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X11_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X12_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X13_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X14_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X15_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X16_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X17_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X18_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X19_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X20_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X21_monarch"
+		texturefile = "gfx/interface/goals/focus_man_claim_the_mandate_of_heaven.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X22_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X23_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X24_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X25_monarch"
+		texturefile = "gfx/interface/ideas/crowns/germany.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X26_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X27_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X28_monarch"
+		texturefile = "gfx/interface/ideas/crowns/bhutan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X29_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X30_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X31_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X32_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X33_monarch"
+		texturefile = "gfx/interface/goals/focus_TUR_turanist_ambition.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X34_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X35_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X36_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X37_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X38_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X39_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X40_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X41_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X42_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X43_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X44_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X45_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X46_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X47_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X48_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X49_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X50_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X51_monarch"
+		texturefile = "gfx/interface/ideas/crowns/germany.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X52_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X53_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X54_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X55_monarch"
+		texturefile = "gfx/interface/ideas/idea_raj_indian_gentlemen_officers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X56_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X57_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X58_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X59_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X60_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X61_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X62_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X63_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X64_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZIM_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+}
+ 

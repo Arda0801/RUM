@@ -1,0 +1,36 @@
+
+state={
+	id=308
+	name="STATE_308"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			6606 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			6793 = {
+				naval_base = 4
+			}
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		782 6606 6793 6985 9924 11734 
+	}
+	manpower=2555552
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

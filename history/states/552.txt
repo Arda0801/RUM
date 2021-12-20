@@ -1,0 +1,36 @@
+
+state={
+	id=552
+	name="STATE_552"
+	resources={
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			1977 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			1977 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		1977 2003 2046 4138 4963 7989 8105 10745 10902 12725 12796 12826 12836 12881 
+	}
+	manpower=1142692
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

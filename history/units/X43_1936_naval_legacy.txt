@@ -1,0 +1,49 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12878
+		task_force = {
+			name = "1st Fleet"
+			location = 12878
+			ship = { name = "Costa Rica" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X43 } } }
+			ship = { name = "Diriangén" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X43 } } }
+			ship = { name = "El Salvador" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X43 } } }
+			ship = { name = "Francisco Dueñas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X43 } } }
+			ship = { name = "1st David Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X43 } } }
+			ship = { name = "1st Belize Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X43 } } }
+			ship = { name = "1st Limón Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X43 } } }
+			ship = { name = "1st San Salvador Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X43 } } }
+			ship = { name = "1st Rivas Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X43 } } }
+			ship = { name = "Lenca" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X43 } } }
+			ship = { name = "Niquirano" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X43 } } }
+			ship = { name = "Miskito" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X43 } } }
+			ship = { name = "Pipil" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X43 } } }
+			ship = { name = "Cristobal Colón" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X43 } } }
+			ship = { name = "Olmeca" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X43 } } }
+			ship = { name = "Pedro de Alvarado" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X43 } } }
+			ship = { name = "Castilla del Oro" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X43 } } }
+			ship = { name = "Chorti" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X43 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "X43"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X43"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

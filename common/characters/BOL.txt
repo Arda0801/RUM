@@ -1,0 +1,88 @@
+characters={
+	BOL_pomaguala_huascar={
+		name=BOL_pomaguala_huascar
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	BOL_cayo_topa_omaguaca={
+		name=BOL_cayo_topa_omaguaca
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	BOL_chuqui_capac_paullu={
+		name=BOL_chuqui_capac_paullu
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	BOL_hualpa_maila={
+		name=BOL_hualpa_maila
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	BOL_inti_inquill={
+		name=BOL_inti_inquill
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	BOL_zopahua_marcavilca={
+		name=BOL_zopahua_marcavilca
+		navy_leader={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	BOL_pumi_sopa_larico={
+		name=BOL_pumi_sopa_larico
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/portrait_hon_tiburcio_carias_andino.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

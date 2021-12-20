@@ -1,0 +1,32 @@
+
+state={
+	id=343
+	name="STATE_343"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			9860 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		864 876 1463 3890 4512 4583 6935 6965 7470 7530 7620 9761 9823 9858 9860 9912 10399 10497 11739 11759 11871 11880 12318 12376 12387 12416 12476 
+	}
+	manpower=5126116
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

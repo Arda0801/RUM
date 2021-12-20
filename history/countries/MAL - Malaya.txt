@@ -1,0 +1,247 @@
+﻿capital = 589
+set_research_slots = 2
+
+oob = "MAL_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "MAL_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "MAL_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_malaysia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1825.4.17"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 84
+	neutrality = 16
+}
+
+add_opinion_modifier = { target = ARG modifier = negative_30 }
+add_opinion_modifier = { target = BOL modifier = negative_30 }
+add_opinion_modifier = { target = BRA modifier = negative_30 }
+add_opinion_modifier = { target = CUB modifier = negative_30 }
+add_opinion_modifier = { target = DEN modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = negative_10 }
+add_opinion_modifier = { target = VIN modifier = positive_25 }
+add_opinion_modifier = { target = X04 modifier = negative_10 }
+add_opinion_modifier = { target = X05 modifier = negative_10 }
+add_opinion_modifier = { target = X16 modifier = negative_30 }
+add_opinion_modifier = { target = X19 modifier = positive_25 }
+add_opinion_modifier = { target = X24 modifier = negative_30 }
+add_opinion_modifier = { target = X33 modifier = negative_10 }
+add_opinion_modifier = { target = X43 modifier = negative_30 }
+add_opinion_modifier = { target = X44 modifier = negative_10 }
+add_opinion_modifier = { target = X56 modifier = negative_130 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_malay
+}
+
+recruit_character = MAL_safiuddin_raja_inu
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Orama Aadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Puaiti Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Orama al-Marhum"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Puaiti al-Khairat"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Merenui al-Marhum"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Mohea Murshidul"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Poehina Raja Inu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Poerava Raja Ahmad"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Poenui Muadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Yusuf Aadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Shahabuddin Bendahara"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Muabidin Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Shahabuddin al-Marhum"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Aziz al-Khairat"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Jalil Murshidul"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Shahabuddin Raja Inu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Safiuddin Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAL }
+	}
+
+	create_operative_leader = {
+		name = "Ali Raja Ahmad"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAL }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

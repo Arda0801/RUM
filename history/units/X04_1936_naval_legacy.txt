@@ -1,0 +1,66 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12281
+		task_force = {
+			name = "1st Fleet"
+			location = 2774
+			ship = { name = "1st Portland Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "2nd Portland Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Vancouver Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Seattle Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "3rd Portland Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "2nd Vancouver Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Dutch Harbor Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Seattle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "Westminster" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Seattle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Portland Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Dutch Harbor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Vancouver Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "2nd Seattle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "3rd Seattle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "2nd Portland Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 1408
+		task_force = {
+			name = "2nd Fleet"
+			location = 1408
+			ship = { name = "Columbia" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "Victoria" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "Vancouver" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "Finlay" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Dutch Harbor Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "Mackenzie" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "Fraser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "Cook" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "Drake" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "2nd Dutch Harbor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+			ship = { name = "3rd Dutch Harbor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X04 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "X04"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X04"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

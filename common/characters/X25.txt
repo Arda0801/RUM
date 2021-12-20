@@ -1,0 +1,76 @@
+characters={
+	X25_lukas_schree={
+		name=X25_lukas_schree
+		corps_commander={
+			skill=4
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 5
+			legacy_id = 0
+		}
+	}
+
+	X25_ludwig_von_manteuffel={
+		name=X25_ludwig_von_manteuffel
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X25_pascal_von_gebser={
+		name=X25_pascal_von_gebser
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X25_leonhard_von_reuter={
+		name=X25_leonhard_von_reuter
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X25_erich_von_boyen={
+		name=X25_erich_von_boyen
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X25_johann_droste={
+		name=X25_johann_droste
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=700
+	name="STATE_700"
+	resources={
+		chromium=1.000
+		steel=1.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = X61
+		victory_points = {
+			10309 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10309 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = X03
+		add_core_of = X61
+	}
+
+	provinces={
+		4255 7229 10137 10309 
+	}
+	manpower=265396
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

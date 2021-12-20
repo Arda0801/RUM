@@ -1,0 +1,141 @@
+﻿converted_war_strategies_KSH = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X29"
+		value = 1268
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X25"
+		value = 702
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X33"
+		value = 702
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X37"
+		value = 468
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X30"
+		value = 385
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIL"
+		value = 78
+	}
+}
+
+converted_diplo_strategies_KSH = {
+	enable = {
+		tag = KSH
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X29"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X30"
+		value = 302
+	}
+	ai_strategy = {
+		type = contain
+		id = "POL"
+		value = 162
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIL"
+		value = 162
+	}
+	ai_strategy = {
+		type = contain
+		id = "SHL"
+		value = 116
+	}
+	ai_strategy = {
+		type = contain
+		id = "X37"
+		value = 116
+	}
+	ai_strategy = {
+		type = contain
+		id = "X33"
+		value = 59
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POL"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIL"
+		value = 91
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X25"
+		value = 41
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X33"
+		value = 41
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X33"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X25"
+		value = 175
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POL"
+		value = 30
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SWE"
+		value = 13
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "POL"
+		value = 71
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X53"
+		value = 52
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VIN"
+		value = 49
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X09"
+		value = 28
+	}
+}

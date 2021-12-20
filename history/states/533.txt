@@ -1,0 +1,36 @@
+
+state={
+	id=533
+	name="STATE_533"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			3152 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			4640 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = POL
+		add_claim_by = X33
+	}
+
+	provinces={
+		83 185 308 496 567 592 3074 3152 3174 4640 6099 6178 6201 6381 6408 9079 9221 9485 11057 11127 11291 11426 11443 
+	}
+	manpower=1419216
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

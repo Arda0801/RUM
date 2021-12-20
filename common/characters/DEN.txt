@@ -1,0 +1,64 @@
+characters={
+	DEN_axel_eberlin={
+		name=DEN_axel_eberlin
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	DEN_herman_stemman={
+		name=DEN_herman_stemman
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	DEN_jacob_mylius={
+		name=DEN_jacob_mylius
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	DEN_christian_berger={
+		name=DEN_christian_berger
+		navy_leader={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	DEN_adam_asp_persson={
+		name=DEN_adam_asp_persson
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

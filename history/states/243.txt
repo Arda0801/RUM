@@ -1,0 +1,31 @@
+
+state={
+	id=243
+	name="STATE_243"
+
+	history={
+		owner = X25
+		victory_points = {
+			11506 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = SPC
+		add_core_of = X25
+		add_claim_by = ENG
+	}
+
+	provinces={
+		6547 6949 9507 9523 9534 9725 11491 11506 11518 
+	}
+	manpower=2146700
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

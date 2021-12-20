@@ -1,0 +1,36 @@
+
+state={
+	id=560
+	name="STATE_560"
+	resources={
+		chromium=20.000
+		steel=4.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			10929 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = X33
+		add_core_of = X57
+		add_core_of = ZIM
+	}
+
+	provinces={
+		1874 2151 2216 4851 7842 10929 
+	}
+	manpower=1354636
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

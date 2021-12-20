@@ -1,0 +1,39 @@
+
+state={
+	id=332
+	name="STATE_332"
+	resources={
+		aluminium=39.000
+		chromium=19.000
+		steel=15.000
+		tungsten=13.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			4109 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			976 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		976 1109 1205 3864 3988 4109 7127 11895 12001 
+	}
+	manpower=2207556
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

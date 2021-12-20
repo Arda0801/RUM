@@ -1,0 +1,64 @@
+characters={
+	X06_ti_toorou_loganimoce={
+		name=X06_ti_toorou_loganimoce
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X06_epenisa_cokanauto={
+		name=X06_epenisa_cokanauto
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X06_samuel_banuve={
+		name=X06_samuel_banuve
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X06_seru_hortense={
+		name=X06_seru_hortense
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X06_king_sakiusa_iii={
+		name=X06_king_sakiusa_iii
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/portrait_hai_stenio_vincent.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

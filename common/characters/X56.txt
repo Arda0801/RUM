@@ -1,0 +1,88 @@
+characters={
+	X56_wylie_mullagh={
+		name=X56_wylie_mullagh
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X56_bennelong_lanne={
+		name=X56_bennelong_lanne
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X56_nemarluk_wonga={
+		name=X56_nemarluk_wonga
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X56_yagan_noongar={
+		name=X56_yagan_noongar
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X56_pemulwy_bunurong={
+		name=X56_pemulwy_bunurong
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X56_bennelong_wonga={
+		name=X56_bennelong_wonga
+		navy_leader={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X56_yagan_noongar_1={
+		name=X56_yagan_noongar_1
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_edwin_barclay.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

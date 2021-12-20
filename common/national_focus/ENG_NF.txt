@@ -1,0 +1,389 @@
+focus_tree = {
+	id = ENG_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = The_third_wayENG
+		icon = GFX_goal_support_fascism
+		text = The_third_way
+		x = 22
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 2 name = The_third_way }
+		add_ideas = fascist_influence
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = mil_marchENG
+		icon = GFX_goal_generic_allies_build_infantry
+		text = mil_march
+		prerequisite = { focus = The_third_wayENG }
+		x = 0
+		y = 1
+		relative_position_id = The_third_wayENG
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		}
+	}
+
+	focus = {
+		id = expand_the_reichENG
+		icon = GFX_goal_generic_political_pressure
+		text = expand_the_reich
+		x = 24
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 3 name = expand_the_reich }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = ENG_sudeten_SPC
+		icon = GFX_goal_anschluss
+		text = _sudeten_SPC
+		prerequisite = { focus = expand_the_reichENG }
+		bypass = {
+	  has_war_with = SPC
+	}
+		x = -1
+		y = 1
+		relative_position_id = expand_the_reichENG
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.7.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Aragon" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = SPC
+			}
+			SPC = {
+				country_event = NFEvents.1
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = ENG_finish_SPC
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_SPC
+		prerequisite = { focus =  ENG_sudeten_SPC }
+		bypass = {
+		has_war_with = SPC
+	}
+		x = 0
+		y = 1
+		relative_position_id = ENG_sudeten_SPC
+		cost = 10
+		available = {
+		SPC = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Aragon" }
+		create_wargoal = {
+			type = annex_everything
+			target = SPC
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = ENG_sudeten_X00
+		icon = GFX_goal_anschluss
+		text = _sudeten_X00
+		prerequisite = { focus = expand_the_reichENG }
+		bypass = {
+	  has_war_with = X00
+	}
+		x = 1
+		y = 1
+		relative_position_id = expand_the_reichENG
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Anglo-Saxony" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = X00
+			}
+			X00 = {
+				country_event = NFEvents.4
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = ENG_finish_X00
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_X00
+		prerequisite = { focus =  ENG_sudeten_X00 }
+		bypass = {
+		has_war_with = X00
+	}
+		x = 0
+		y = 1
+		relative_position_id = ENG_sudeten_X00
+		cost = 10
+		available = {
+		date > 1937.3.11
+		X00 = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Anglo-Saxony" }
+		create_wargoal = {
+			type = annex_everything
+			target = X00
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = Fas_SummitENG
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Fascist_Summit
+		x = 27
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Call for the Fascist Summit" }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 10
+			date > 1938.1.1
+		}
+	}
+	}
+
+	focus = {
+		id = Alliance_X33ENG
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_X33
+		prerequisite = { focus = Fas_SummitENG }
+		bypass = {
+		OR = {
+			NOT = { has_government = X33 }
+			X33 = { is_subject = yes }
+			is_in_faction_with = X33
+			has_war_with = X33
+			NOT = { country_exists = X33 }
+		}
+	}
+		x = -1
+		y = 1
+		relative_position_id = Fas_SummitENG
+		cost = 10
+		available = {
+		OR = {
+			is_faction_leader = yes
+			is_in_faction = no
+		}
+		X33 = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+				has_war = no
+			}
+			has_opinion = {
+				target = ROOT
+				value > -50
+			}
+		}
+	}
+		completion_reward = {
+		if = {
+			limit = { X33 = { is_faction_leader = yes } }
+			every_country = {
+				limit = {
+					is_in_faction_with = X33
+					is_subject = no
+				}
+				country_event = { hours = 6 id = NFEvents.7 }
+			}
+		}
+		else = {
+			X33 = { country_event = { hours = 6 id = NFEvents.7 } }
+		}
+		X33 = {
+			add_opinion_modifier = { target = ROOT modifier = positive_50 }
+		}
+	}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+	focus = {
+		id = Alliance_X50ENG
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_X50
+		prerequisite = { focus = Fas_SummitENG }
+		bypass = {
+		OR = {
+			NOT = { has_government = X50 }
+			X50 = { is_subject = yes }
+			is_in_faction_with = X50
+			has_war_with = X50
+			NOT = { country_exists = X50 }
+		}
+	}
+		x = 1
+		y = 1
+		relative_position_id = Fas_SummitENG
+		cost = 10
+		available = {
+		OR = {
+			is_faction_leader = yes
+			is_in_faction = no
+		}
+		X50 = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+				has_war = no
+			}
+			has_opinion = {
+				target = ROOT
+				value > -50
+			}
+		}
+	}
+		completion_reward = {
+		if = {
+			limit = { X50 = { is_faction_leader = yes } }
+			every_country = {
+				limit = {
+					is_in_faction_with = X50
+					is_subject = no
+				}
+				country_event = { hours = 6 id = NFEvents.8 }
+			}
+		}
+		else = {
+			X50 = { country_event = { hours = 6 id = NFEvents.8 } }
+		}
+		X50 = {
+			add_opinion_modifier = { target = ROOT modifier = positive_50 }
+		}
+	}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+	focus = {
+		id = GP_WarX56ENG
+		icon = GFX_goal_generic_major_war
+		text = GP_WarX56
+		prerequisite = { focus = Alliance_X33ENG }
+		prerequisite = { focus = Alliance_X50ENG }
+		bypass = {
+		has_war_with = X56
+	}
+		x = 0
+		y = 2
+		relative_position_id = Fas_SummitENG
+		cost = 10
+		available = {
+		has_war = no
+		date > 1939.1.1
+	}
+		completion_reward = {
+		add_named_threat = { threat = 5 name = "War with Yeni Arabistan" }
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = X56
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = X56 ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				
+			}
+		}
+	}
+	}
+
+}

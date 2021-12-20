@@ -1,0 +1,33 @@
+
+state={
+	id=592
+	name="STATE_592"
+
+	history={
+		owner = X37
+		victory_points = {
+			321 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			321 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = X37
+		add_claim_by = X29
+	}
+
+	provinces={
+		268 293 321 3258 9294 11276 11305 
+	}
+	manpower=1472212
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

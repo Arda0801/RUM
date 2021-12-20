@@ -1,0 +1,29 @@
+
+state={
+	id=584
+	name="STATE_584"
+
+	history={
+		owner = SIA
+		victory_points = {
+			4613 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X22
+	}
+
+	provinces={
+		1464 1507 1563 4339 4568 4613 7075 7103 7218 7356 9961 10330 10356 10453 10456 10496 12332 12392 12433 
+	}
+	manpower=261184
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

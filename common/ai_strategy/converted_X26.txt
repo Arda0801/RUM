@@ -1,0 +1,66 @@
+﻿converted_war_strategies_X26 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X33"
+		value = 1022
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X56"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_X26 = {
+	enable = {
+		tag = X26
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X33"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X33"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X57"
+		value = 9
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X56"
+		value = 0
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NOR"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X45"
+		value = 56
+	}
+}

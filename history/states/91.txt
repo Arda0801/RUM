@@ -1,0 +1,36 @@
+
+state={
+	id=91
+	name="STATE_91"
+	resources={
+		steel=25.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			11535 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			11535 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		485 3549 3579 6449 6569 6599 9434 9550 9578 11535 11563 
+	}
+	manpower=1996836
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

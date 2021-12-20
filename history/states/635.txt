@@ -1,0 +1,37 @@
+
+state={
+	id=635
+	name="STATE_635"
+	resources={
+		aluminium=1.000
+		steel=12.000
+	}
+
+	history={
+		owner = X44
+		victory_points = {
+			3732 30 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			12459 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X44
+	}
+
+	provinces={
+		733 1282 1338 1619 3712 3715 3732 4287 4445 6719 7462 7629 9675 10247 10318 10481 12202 12221 12459 
+	}
+	manpower=5440664
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

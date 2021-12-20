@@ -1,0 +1,64 @@
+characters={
+	X38_pheran_singh={
+		name=X38_pheran_singh
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X38_pheran_singh_1={
+		name=X38_pheran_singh_1
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	X38_narayan_singh={
+		name=X38_narayan_singh
+		corps_commander={
+			skill=3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	X38_parbhu_singh={
+		name=X38_parbhu_singh
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X38_king_basbuga_iii={
+		name=X38_king_basbuga_iii
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_DEH_Sir_Chhotu_Ram.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

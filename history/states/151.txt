@@ -1,0 +1,29 @@
+
+state={
+	id=151
+	name="STATE_151"
+
+	history={
+		owner = X16
+		victory_points = {
+			1678 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 7
+			arms_factory = 2
+			air_base = 3
+
+		}
+		add_core_of = X16
+	}
+
+	provinces={
+		1586 1678 1770 1831 4691 7306 7458 7539 9892 9910 10478 10666 11788 11971 12418 12646 
+	}
+	manpower=4117780
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

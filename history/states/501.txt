@@ -1,0 +1,38 @@
+
+state={
+	id=501
+	name="STATE_501"
+	resources={
+		chromium=7.000
+	}
+
+	history={
+		owner = X60
+		victory_points = {
+			5128 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			10993 = {
+				naval_base = 4
+			}
+			air_base = 10
+
+		}
+		add_core_of = MAD
+		add_core_of = X15
+		add_core_of = X18
+		add_core_of = X60
+	}
+
+	provinces={
+		5128 5222 8188 10993 
+	}
+	manpower=2281636
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

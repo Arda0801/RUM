@@ -1,0 +1,35 @@
+
+state={
+	id=49
+	name="STATE_49"
+	resources={
+		oil=15.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			10912 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			10912 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		1981 5317 7915 8050 10736 10767 10823 10849 10879 10912 
+	}
+	manpower=547632
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

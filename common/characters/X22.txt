@@ -1,0 +1,40 @@
+characters={
+	X22_sisavang_vong={
+		name=X22_sisavang_vong
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	X22_sakkarin_anuvong={
+		name=X22_sakkarin_anuvong
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X22_unkham_long={
+		name=X22_unkham_long
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

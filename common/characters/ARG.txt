@@ -1,0 +1,76 @@
+characters={
+	ARG_amapytu_calchagui={
+		name=ARG_amapytu_calchagui
+		corps_commander={
+			skill=4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+			legacy_id = 0
+		}
+	}
+
+	ARG_itanu,_curumai={
+		name=ARG_itanu,_curumai
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	ARG_angatupyry_caracara={
+		name=ARG_angatupyry_caracara
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	ARG_mbarakapu_sira={
+		name=ARG_mbarakapu_sira
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	ARG_ygary_tarci={
+		name=ARG_ygary_tarci
+		navy_leader={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	ARG_arandu_caaigua={
+		name=ARG_arandu_caaigua
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/portrait_col_alfonso_lopez_pumarejo.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

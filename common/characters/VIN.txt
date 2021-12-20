@@ -1,0 +1,64 @@
+characters={
+	VIN_tran_cuong={
+		name=VIN_tran_cuong
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	VIN_bui_an_than={
+		name=VIN_bui_an_than
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	VIN_nguyen_phuoc_trong_hiep={
+		name=VIN_nguyen_phuoc_trong_hiep
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	VIN_ton_that_quang={
+		name=VIN_ton_that_quang
+		navy_leader={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	VIN_truong_khai={
+		name=VIN_truong_khai
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

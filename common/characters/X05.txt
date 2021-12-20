@@ -1,0 +1,76 @@
+characters={
+	X05_bislahalani_klinkwan={
+		name=X05_bislahalani_klinkwan
+		corps_commander={
+			skill=3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 5
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X05_cochise_kung={
+		name=X05_cochise_kung
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X05_hoksay_nolyae_naashaashi={
+		name=X05_hoksay_nolyae_naashaashi
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X05_beshiltheeni_keha'atiinii={
+		name=X05_beshiltheeni_keha'atiinii
+		corps_commander={
+			skill=3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X05_ahzaah_ts'ah_yisk'idnii={
+		name=X05_ahzaah_ts'ah_yisk'idnii
+		navy_leader={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X05_toh_yah_totshnii={
+		name=X05_toh_yah_totshnii
+		portraits={
+			civilian={
+				large="gfx/leaders/North_American_Native/Portrait_Lakota_Russell_Means.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

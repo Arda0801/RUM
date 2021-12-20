@@ -1,0 +1,40 @@
+
+state={
+	id=597
+	name="STATE_597"
+	resources={
+		aluminium=2.000
+		chromium=1.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = SRL
+		victory_points = {
+			7340 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			7340 = {
+				naval_base = 6
+			}
+			air_base = 2
+
+		}
+		add_core_of = SRL
+		add_core_of = X14
+		add_core_of = X32
+	}
+
+	provinces={
+		1228 1430 4321 4365 4414 5032 7297 7310 7340 10152 10296 10756 10897 12180 12779 
+	}
+	manpower=4941304
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

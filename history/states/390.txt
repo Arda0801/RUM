@@ -1,0 +1,34 @@
+
+state={
+	id=390
+	name="STATE_390"
+	resources={
+		aluminium=6.000
+		oil=13.000
+		steel=6.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			8117 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		1986 2039 4928 4966 8031 8117 10881 10913 11249 12780 12809 12863 
+	}
+	manpower=2309296
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

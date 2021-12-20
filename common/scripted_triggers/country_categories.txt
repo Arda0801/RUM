@@ -1,0 +1,249 @@
+tag_fpcad= {
+	OR = {
+	}
+}
+
+tag_fpcae= {
+	OR = {
+		tag = PHI
+	}
+}
+
+tag_fpvad= {
+	OR = {
+	}
+}
+
+tag_fpvae= {
+	OR = {
+	}
+}
+
+tag_fpvnd= {
+	OR = {
+	}
+}
+
+tag_fpvne= {
+	OR = {
+	}
+}
+
+tag_fscad= {
+	OR = {
+		tag = BAY
+		AND = {
+			tag = CZE
+			has_government = democratic
+		}
+		AND = {
+			tag = ENG
+			has_government = democratic
+		}
+		tag = X25
+		tag = X43
+	}
+}
+
+tag_fscae= {
+	OR = {
+		tag = BAY
+		tag = BOL
+		AND = {
+			tag = CZE
+			NOT = { has_government = democratic }
+		}
+		tag = KSH
+		tag = LIB
+		tag = MAL
+		tag = NOR
+		tag = POL
+		tag = SCA
+		tag = SIL
+		tag = SWE
+		tag = X04
+		AND = {
+			tag = X09
+			NOT = { has_government = fascism }
+		}
+		tag = X14
+		tag = X16
+		tag = X24
+		tag = X29
+		tag = X30
+		tag = X40
+		tag = X46
+		tag = ZIM
+	}
+}
+
+tag_fscne= {
+	OR = {
+		tag = CUB
+		tag = X12
+	}
+}
+
+tag_fsvad= {
+	OR = {
+	}
+}
+
+tag_fsvae= {
+	OR = {
+		tag = ADU
+		tag = ARG
+		tag = RAJ
+		tag = SAF
+		tag = X00
+	}
+}
+
+tag_fsvnd= {
+	OR = {
+	}
+}
+
+tag_fsvne= {
+	OR = {
+		tag = X26
+	}
+}
+
+tag_mpcad= {
+	OR = {
+		tag = HOL
+		tag = X18
+		tag = X19
+		tag = X20
+		tag = X41
+	}
+}
+
+tag_mpcae= {
+	OR = {
+		tag = X34
+	}
+}
+
+tag_mpvad= {
+	OR = {
+	}
+}
+
+tag_mpvae= {
+	OR = {
+		tag = X36
+	}
+}
+
+tag_mscad= {
+	OR = {
+		AND = {
+			tag = ENG
+			NOT = { has_government = democratic }
+		}
+	}
+}
+
+tag_mscae= {
+	OR = {
+		tag = BHU
+		tag = BRA
+		tag = DEN
+		tag = HAN
+		tag = JAP
+		tag = MAN
+		tag = MEX
+		tag = POR
+		tag = SAM
+		tag = SHL
+		tag = SIA
+		tag = SRL
+		tag = VIN
+		tag = X03
+		tag = X05
+		tag = X07
+		AND = {
+			tag = X09
+			has_government = fascism
+		}
+		tag = X11
+		tag = X13
+		tag = X17
+		tag = X23
+		tag = X31
+		tag = X35
+		tag = X42
+	}
+}
+
+tag_mscnd= {
+	OR = {
+	}
+}
+
+tag_mscne= {
+	OR = {
+		tag = MAD
+		tag = X02
+		tag = X06
+		tag = X08
+		tag = X10
+		tag = X15
+		tag = X21
+		tag = X22
+		tag = X28
+		tag = X32
+		tag = X33
+		tag = X37
+		tag = X38
+		tag = X39
+		tag = X44
+		tag = X45
+		tag = X47
+		tag = X48
+		tag = X49
+		tag = X50
+		tag = X51
+		tag = X52
+		tag = X53
+		tag = X54
+		tag = X55
+		tag = X56
+		tag = X57
+		tag = X58
+		tag = X59
+		tag = X60
+		tag = X61
+		tag = X62
+		tag = X63
+		tag = X64
+	}
+}
+
+tag_msvad= {
+	OR = {
+		tag = ENG
+		tag = MEX
+	}
+}
+
+tag_msvae= {
+	OR = {
+		tag = SPC
+		tag = X27
+	}
+}
+
+tag_msvnd= {
+	OR = {
+	}
+}
+
+tag_msvne= {
+	OR = {
+		tag = X01
+	}
+}
+

@@ -1,0 +1,37 @@
+
+state={
+	id=642
+	name="STATE_642"
+	resources={
+		aluminium=1.000
+		oil=0.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X49
+		victory_points = {
+			7150 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7150 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X32
+	}
+
+	provinces={
+		4187 7013 7150 11952 
+	}
+	manpower=3020984
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

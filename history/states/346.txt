@@ -1,0 +1,32 @@
+
+state={
+	id=346
+	name="STATE_346"
+
+	history={
+		owner = X33
+		victory_points = {
+			4440 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			4115 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		1544 4017 4115 4440 4562 4574 4591 4603 7001 7151 7170 10089 11976 
+	}
+	manpower=817945
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

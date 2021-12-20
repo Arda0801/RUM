@@ -1,0 +1,33 @@
+
+state={
+	id=508
+	name="STATE_508"
+	resources={
+		chromium=0.000
+		steel=2.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			12611 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		1852 6085 7726 7765 9224 10557 12531 12538 12608 12611 12668 13059 
+	}
+	manpower=824140
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

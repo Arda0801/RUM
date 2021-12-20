@@ -1,0 +1,33 @@
+
+state={
+	id=281
+	name="STATE_281"
+	resources={
+		aluminium=30.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			692 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = BAY
+		add_claim_by = X33
+	}
+
+	provinces={
+		532 561 571 692 707 708 3299 3541 3571 3688 3705 6540 6693 6725 9515 9652 9666 9681 11497 11620 11638 11653 
+	}
+	manpower=6523100
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

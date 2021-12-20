@@ -1,0 +1,32 @@
+
+state={
+	id=350
+	name="STATE_350"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			4951 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		1631 2097 3795 4951 7994 8001 10744 10876 12046 12372 12413 12839 12879 
+	}
+	manpower=2489084
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

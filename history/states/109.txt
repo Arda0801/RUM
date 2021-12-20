@@ -1,0 +1,33 @@
+
+state={
+	id=109
+	name="STATE_109"
+	resources={
+		chromium=2.000
+		steel=6.000
+	}
+
+	history={
+		owner = X09
+		victory_points = {
+			4801 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X09
+	}
+
+	provinces={
+		1723 1728 1743 1787 1791 1798 1834 1853 1859 1868 4697 4732 4792 4801 4856 4862 4873 4882 7676 7717 7749 7752 7823 7885 10554 10575 10578 10623 10632 10647 10708 12533 12557 12579 12605 12612 12629 12649 12665 12675 
+	}
+	manpower=846004
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

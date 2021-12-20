@@ -1,0 +1,35 @@
+
+state={
+	id=590
+	name="STATE_590"
+	resources={
+		aluminium=19.000
+		steel=55.000
+	}
+
+	history={
+		owner = SIL
+		victory_points = {
+			552 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = POL
+		add_core_of = SIL
+		add_core_of = X29
+	}
+
+	provinces={
+		552 3485 3545 6534 6595 11517 
+	}
+	manpower=547120
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

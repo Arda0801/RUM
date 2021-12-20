@@ -1,0 +1,33 @@
+
+state={
+	id=188
+	name="STATE_188"
+	resources={
+		aluminium=2.000
+		steel=2.000
+	}
+
+	history={
+		owner = X21
+		victory_points = {
+			7459 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X21
+	}
+
+	provinces={
+		1004 1139 1603 4114 4144 4158 4519 4547 4606 6932 7074 7459 7508 7540 7568 7656 9937 9958 10364 10434 10446 11931 12012 12426 
+	}
+	manpower=25451848
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,980 @@
+﻿capital = 653
+set_research_slots = 3
+
+oob = "X51_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X51_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X51_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = land_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = land_doctrine
+}
+
+set_country_flag = conv_france
+set_convoys = 2
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = X51 }
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 1 producer = X51 }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X51 }
+
+set_politics = {
+    ruling_party = fascism
+    last_election = "1933.4.17"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 38
+	fascism = 60
+	neutrality = 2
+}
+
+give_guarantee = ENG
+diplomatic_relation = { country = ENG relation = non_aggression_pact }
+
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = positive_5 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_180 }
+add_opinion_modifier = { target = HAN modifier = positive_30 }
+add_opinion_modifier = { target = HOL modifier = negative_40 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = NOR modifier = positive_10 }
+add_opinion_modifier = { target = PHI modifier = positive_20 }
+add_opinion_modifier = { target = POL modifier = positive_31 }
+add_opinion_modifier = { target = POR modifier = negative_20 }
+add_opinion_modifier = { target = RAJ modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = positive_5 }
+add_opinion_modifier = { target = SHL modifier = positive_15 }
+add_opinion_modifier = { target = SIL modifier = negative_5 }
+add_opinion_modifier = { target = SPC modifier = negative_200 }
+add_opinion_modifier = { target = SWE modifier = positive_10 }
+add_opinion_modifier = { target = X00 modifier = negative_20 }
+set_truce = { target = X00 days = 799 }
+add_opinion_modifier = { target = X04 modifier = negative_30 }
+add_opinion_modifier = { target = X05 modifier = negative_30 }
+add_opinion_modifier = { target = X07 modifier = negative_10 }
+add_opinion_modifier = { target = X16 modifier = negative_10 }
+add_opinion_modifier = { target = X24 modifier = negative_10 }
+add_opinion_modifier = { target = X25 modifier = negative_200 }
+set_truce = { target = X25 days = 799 }
+add_opinion_modifier = { target = X29 modifier = positive_20 }
+add_opinion_modifier = { target = X32 modifier = negative_10 }
+add_opinion_modifier = { target = X33 modifier = positive_101 }
+give_military_access = X33
+add_opinion_modifier = { target = X37 modifier = positive_30 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X44 modifier = negative_10 }
+add_opinion_modifier = { target = X47 modifier = negative_10 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+
+
+add_ideas = {
+	X51_monarch
+	limited_conscription
+	partial_economic_mobilisation
+	limited_exports
+	culture_breton
+}
+set_stability = 0.60
+set_war_support = 0.80
+
+recruit_character = X51_jaoua_peron
+recruit_character = X51_henri_le_goff
+recruit_character = X51_henri_deschamps
+recruit_character = X51_michel_kergoulay
+recruit_character = X51_michel_marchand
+recruit_character = X51_fransez_fabron
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Marie Caron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Peron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Morvan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Jezeguel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Salaun"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Gallo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Legrand"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Gallo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Chartres"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Fournier"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Thomas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Marchand"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Dupuis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Marchand"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Durand"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Kergoulay"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Chastain"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Travers"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Peron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Bernard"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Beaumont"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Comtois"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Dupuis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Travers"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Comtois"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Moreau"
+		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Chevrolet"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Dubois"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Couture"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Anne Leblanc"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Couture"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Yann Durand"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Pierre Beaulieu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Hoël Beaulieu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Michel Fournier"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Henri Leblanc"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Frañsez Leblanc"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Segal Legrand"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Michel Bernard"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Michel Travers"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Frañsez Peron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Yann Caron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Frañsez Chastain"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Paol de Cornouaille"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Yann Couture"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Yannic Legrand"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Elouan Bernard"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Michel Dupont"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Elouan Thomas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Jaoua Travers"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Yann Leblanc"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Elouan Merat"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Hoël Jezeguel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Pierre Deschamps"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Yann Marchand"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Frañsez Karter"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Yann Fournier"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Yann Leblanc"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Yann le Goff"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Elouan Legrand"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Hoël Couture"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Jaoua Durand"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Elouan Merat"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Michel Fournier"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Henri Marchand"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Yannic Fabron"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Alain Merat"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Frañsez Fabron"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Henri Salaun"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Frañsez Chartres"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+	create_operative_leader = {
+		name = "Paol Couture"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X51 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X51_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X51_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X51_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	create_equipment_variant = {
+		name = "GW Heavy Tank"
+		type = heavy_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Light Tank"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/gwtank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Medium Tank"
+		type = medium_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/SOV_basic_heavy_tank.dds"
+	}
+}

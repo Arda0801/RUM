@@ -1,0 +1,30 @@
+
+state={
+	id=356
+	name="STATE_356"
+
+	history={
+		owner = X33
+		victory_points = {
+			6429 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = X33
+		add_claim_by = POL
+	}
+
+	provinces={
+		422 474 513 535 572 3412 3430 3457 3496 3511 6429 6435 6509 6520 6557 9520 9533 11441 11503 11543 
+	}
+	manpower=2576572
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

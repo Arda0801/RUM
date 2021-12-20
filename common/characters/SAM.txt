@@ -1,0 +1,64 @@
+characters={
+	SAM_lika_ma'ufanga={
+		name=SAM_lika_ma'ufanga
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SAM_tavita_maeakafa={
+		name=SAM_tavita_maeakafa
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SAM_taufa'ahau_te_fuli={
+		name=SAM_taufa'ahau_te_fuli
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SAM_taupe_te_fuli={
+		name=SAM_taupe_te_fuli
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SAM_king_keoni_ii={
+		name=SAM_king_keoni_ii
+		portraits={
+			civilian={
+				large="gfx/leaders/Aborigine_Polynesia/Portrait_Sarawak_Ong_Tiang_Swee.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

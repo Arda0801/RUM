@@ -1,0 +1,35 @@
+
+state={
+	id=478
+	name="STATE_478"
+	resources={
+		steel=20.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			7215 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12087 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = ADU
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 12100 
+	}
+	manpower=817536
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

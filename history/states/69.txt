@@ -1,0 +1,33 @@
+
+state={
+	id=69
+	name="STATE_69"
+	resources={
+		chromium=1.000
+		steel=21.000
+		tungsten=22.000
+	}
+
+	history={
+		owner = X04
+		victory_points = {
+			9616 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1832 3781 4778 7845 9616 10556 12124 12607 
+	}
+	manpower=1018024
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

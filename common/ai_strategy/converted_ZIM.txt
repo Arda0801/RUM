@@ -1,0 +1,61 @@
+﻿converted_war_strategies_ZIM = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X33"
+		value = 698
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X12"
+		value = 6
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X13"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_ZIM = {
+	enable = {
+		tag = ZIM
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X33"
+		value = 188
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X33"
+		value = 389
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X12"
+		value = 27
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X13"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X12"
+		value = 1
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X47"
+		value = 29
+	}
+}

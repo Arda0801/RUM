@@ -1,0 +1,30 @@
+
+state={
+	id=295
+	name="STATE_295"
+
+	history={
+		owner = X33
+		victory_points = {
+			9548 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = X33
+		add_claim_by = X29
+	}
+
+	provinces={
+		723 744 3728 3741 6584 6706 6729 6747 6761 9548 9701 9716 11534 11652 11655 11672 11689 
+	}
+	manpower=4114580
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

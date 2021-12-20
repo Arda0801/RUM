@@ -1,0 +1,76 @@
+characters={
+	X53_hussain_ur_rahman={
+		name=X53_hussain_ur_rahman
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+
+	X53_umar_qaim={
+		name=X53_umar_qaim
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X53_hussain_tiwana={
+		name=X53_hussain_tiwana
+		corps_commander={
+			skill=3
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = 0
+		}
+	}
+
+	X53_harsha_bachittar_singh={
+		name=X53_harsha_bachittar_singh
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X53_bhai_ur_rahman={
+		name=X53_bhai_ur_rahman
+		navy_leader={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 5
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X53_malik_qaim={
+		name=X53_malik_qaim
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

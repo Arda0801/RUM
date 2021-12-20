@@ -1,0 +1,29 @@
+
+state={
+	id=577
+	name="STATE_577"
+
+	history={
+		owner = X36
+		victory_points = {
+			7940 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X36
+	}
+
+	provinces={
+		1882 4914 4964 7940 8018 8037 12899 
+	}
+	manpower=640892
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

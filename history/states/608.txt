@@ -1,0 +1,35 @@
+
+state={
+	id=608
+	name="STATE_608"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = X43
+		victory_points = {
+			12865 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			12823 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = X43
+	}
+
+	provinces={
+		2031 8017 12823 12865 13093 
+	}
+	manpower=1113928
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

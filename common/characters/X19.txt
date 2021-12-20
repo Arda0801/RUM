@@ -1,0 +1,64 @@
+characters={
+	X19_sonny_mainaky={
+		name=X19_sonny_mainaky
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X19_ignacio_mainaky={
+		name=X19_ignacio_mainaky
+		corps_commander={
+			skill=3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X19_jos_pattinama={
+		name=X19_jos_pattinama
+		corps_commander={
+			skill=2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X19_ignacio_pattinama={
+		name=X19_ignacio_pattinama
+		navy_leader={
+			skill=2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X19_ignacio_pattinama_1={
+		name=X19_ignacio_pattinama_1
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

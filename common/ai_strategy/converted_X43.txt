@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X43 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "BRA"
+		value = 666
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BOL"
+		value = 370
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CUB"
+		value = 330
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MEX"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 3
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X33"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_X43 = {
+	enable = {
+		tag = X43
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "BRA"
+		value = 318
+	}
+	ai_strategy = {
+		type = contain
+		id = "MEX"
+		value = 258
+	}
+	ai_strategy = {
+		type = contain
+		id = "BOL"
+		value = 187
+	}
+	ai_strategy = {
+		type = contain
+		id = "ARG"
+		value = 82
+	}
+	ai_strategy = {
+		type = contain
+		id = "X33"
+		value = 69
+	}
+	ai_strategy = {
+		type = contain
+		id = "X24"
+		value = 28
+	}
+	ai_strategy = {
+		type = contain
+		id = "X16"
+		value = 13
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRA"
+		value = 380
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BOL"
+		value = 222
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 162
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CUB"
+		value = 156
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 72
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X33"
+		value = 1
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X16"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X44"
+		value = 111
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ARG"
+		value = 92
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X05"
+		value = 22
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SPC"
+		value = 124
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MEX"
+		value = 88
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X49"
+		value = 32
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SRL"
+		value = 23
+	}
+}

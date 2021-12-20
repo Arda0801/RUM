@@ -1,0 +1,76 @@
+characters={
+	SIA_plaek_praya_siri={
+		name=SIA_plaek_praya_siri
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SIA_naritsaranuwatiwong_nitithada={
+		name=SIA_naritsaranuwatiwong_nitithada
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SIA_mongkut_chichalerm={
+		name=SIA_mongkut_chichalerm
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SIA_mongkut_phonphayuhasena={
+		name=SIA_mongkut_phonphayuhasena
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SIA_rama_praya_siri={
+		name=SIA_rama_praya_siri
+		navy_leader={
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SIA_chao_saovabha={
+		name=SIA_chao_saovabha
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

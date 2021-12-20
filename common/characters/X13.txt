@@ -1,0 +1,64 @@
+characters={
+	X13_m'voudoukousala_n'gombi={
+		name=X13_m'voudoukousala_n'gombi
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X13_kenje_ma_nombo={
+		name=X13_kenje_ma_nombo
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X13_m'voumbe_nsindi={
+		name=X13_m'voumbe_nsindi
+		corps_commander={
+			skill=2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X13_kenje_ma_n'sangou={
+		name=X13_kenje_ma_n'sangou
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X13_pratt_mpanzu={
+		name=X13_pratt_mpanzu
+		portraits={
+			civilian={
+				large="gfx/leaders/African/Portrait_Dahomey_Apithy.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

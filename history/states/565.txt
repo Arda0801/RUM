@@ -1,0 +1,33 @@
+
+state={
+	id=565
+	name="STATE_565"
+	resources={
+		aluminium=1.000
+		rubber=0.000
+		steel=0.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			12838 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		12838 
+	}
+	manpower=517616
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

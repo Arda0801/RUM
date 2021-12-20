@@ -1,0 +1,31 @@
+
+state={
+	id=622
+	name="STATE_622"
+	resources={
+		steel=81.000
+	}
+
+	history={
+		owner = X44
+		victory_points = {
+			12501 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		913 1758 7791 8014 8083 10281 10657 10824 10909 12501 12670 
+	}
+	manpower=2028096
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,47 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 11009
+		task_force = {
+			name = "2nd Fleet"
+			location = 5951
+			ship = { name = "1st Copiapó Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "2nd Copiapó Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "3rd Temuco Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "4th Copiapó Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "1st Jayid-Hawa Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "1st Viedma Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "4th Temuco Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "5th Copiapó Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Almirante Brown" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Álvarez Jonte" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Belgrano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Castelli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Chichlana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Garibaldi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Chichlana 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Buenos Aires" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "ARG"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "ARG"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

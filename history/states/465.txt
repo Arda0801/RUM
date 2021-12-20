@@ -1,0 +1,33 @@
+
+state={
+	id=465
+	name="STATE_465"
+
+	history={
+		owner = X33
+		victory_points = {
+			13072 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			13072 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = MAD
+		add_core_of = X33
+	}
+
+	provinces={
+		13072 
+	}
+	manpower=263808
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

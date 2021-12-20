@@ -1,0 +1,32 @@
+
+state={
+	id=231
+	name="STATE_231"
+	resources={
+		steel=236.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			9559 50 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 10
+
+		}
+		add_core_of = X25
+	}
+
+	provinces={
+		549 678 1346 3629 6529 9503 9559 11502 
+	}
+	manpower=2288092
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

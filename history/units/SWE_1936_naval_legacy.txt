@@ -1,0 +1,49 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 408
+		task_force = {
+			name = "2nd Fleet"
+			location = 593
+			ship = { name = "Erik Segersäll" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Gardarr Svavarsson" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Björn Järnsida" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6050
+		task_force = {
+			name = "1st Fleet"
+			location = 6050
+			ship = { name = "Birka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Asgård" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Kraken" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Bäckahäst" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Storsjön" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Vänern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Vättern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SWE"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SWE"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

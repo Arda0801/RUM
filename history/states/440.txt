@@ -1,0 +1,33 @@
+
+state={
+	id=440
+	name="STATE_440"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			9152 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X11
+		add_core_of = X33
+	}
+
+	provinces={
+		1883 1993 2081 3181 7919 9152 13211 
+	}
+	manpower=1426700
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

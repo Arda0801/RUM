@@ -1,0 +1,33 @@
+
+state={
+	id=600
+	name="STATE_600"
+
+	history={
+		owner = SRL
+		victory_points = {
+			4967 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			4967 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = SRL
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		4967 
+	}
+	manpower=217732
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

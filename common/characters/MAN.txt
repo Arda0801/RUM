@@ -1,0 +1,64 @@
+characters={
+	MAN_songgotu_xingde={
+		name=MAN_songgotu_xingde
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	MAN_guan_shangzhi={
+		name=MAN_guan_shangzhi
+		corps_commander={
+			skill=3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 4
+			legacy_id = 0
+		}
+	}
+
+	MAN_guan_zhanshan={
+		name=MAN_guan_zhanshan
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	MAN_tong_zhanshan={
+		name=MAN_tong_zhanshan
+		navy_leader={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	MAN_king_fulin_ii={
+		name=MAN_king_fulin_ii
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

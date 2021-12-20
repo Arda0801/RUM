@@ -1,0 +1,16 @@
+characters={
+	X63_derrimut_lanne={
+		name=X63_derrimut_lanne
+		portraits={
+			civilian={
+				large="gfx/leaders/African/Portrait_SOM_Ali_Shire.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

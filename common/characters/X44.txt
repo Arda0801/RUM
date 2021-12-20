@@ -1,0 +1,76 @@
+characters={
+	X44_rutchogah_tesinigh={
+		name=X44_rutchogah_tesinigh
+		corps_commander={
+			skill=3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 5
+			legacy_id = 0
+		}
+	}
+
+	X44_tioohquaottakauna_kawauka={
+		name=X44_tioohquaottakauna_kawauka
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X44_aqueia_teseroken={
+		name=X44_aqueia_teseroken
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X44_wooaluka_carhagouha={
+		name=X44_wooaluka_carhagouha
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X44_chochuchee_yoroonwago={
+		name=X44_chochuchee_yoroonwago
+		navy_leader={
+			skill=2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X44_kunnateelah_atagulkalu={
+		name=X44_kunnateelah_atagulkalu
+		portraits={
+			civilian={
+				large="gfx/leaders/North_American_Native/portrait_nat_north_democratic.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

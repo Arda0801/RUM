@@ -1,0 +1,64 @@
+characters={
+	SPC_dragonetz_de_recaut={
+		name=SPC_dragonetz_de_recaut
+		corps_commander={
+			skill=3
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SPC_donat_claris={
+		name=SPC_donat_claris
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SPC_sicart_cardenals={
+		name=SPC_sicart_cardenals
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SPC_sicart_martis={
+		name=SPC_sicart_martis
+		navy_leader={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	SPC_esteve_cardenals={
+		name=SPC_esteve_cardenals
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=48
+	name="STATE_48"
+	resources={
+		oil=22.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			8113 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			8113 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		7968 8024 8080 8113 
+	}
+	manpower=604444
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

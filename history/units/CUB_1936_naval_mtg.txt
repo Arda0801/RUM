@@ -1,0 +1,65 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 153
+		task_force = {
+			name = "1st Fleet"
+			location = 5633
+			ship = { name = "Antonio Maceo" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CUB version_name = "1936 Battleship" } } }
+			ship = { name = "Bartolomé Masó" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CUB version_name = "1936 Battleship" } } }
+			ship = { name = "Carlos M. de Céspedes" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CUB version_name = "1936 Battleship" } } }
+			ship = { name = "Carlos Roloff" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CUB version_name = "1936 Battleship" } } }
+			ship = { name = "Héroes de Cuba" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CUB version_name = "1936 Battleship" } } }
+			ship = { name = "José Martí" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CUB version_name = "1936 Battleship" } } }
+			ship = { name = "Máximo Gómez" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CUB version_name = "1936 Battleship" } } }
+			ship = { name = "Salvador Cisneros" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CUB version_name = "1936 Battleship" } } }
+			ship = { name = "4th Jagua Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Jagua Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Jagua Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Jagua Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Caribe" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cuba" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Florida" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Guajiro" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Isla Fernandina" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Isla Juana" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+			ship = { name = "José Antonio Aponte" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Joya del Caribe" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Nicolás Morales" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Patria" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Jagua Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 7451
+		task_force = {
+			name = "3rd Fleet"
+			location = 7451
+			ship = { name = "2nd Jagua Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CUB version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "CUB"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "CUB"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

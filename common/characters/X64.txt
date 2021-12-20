@@ -1,0 +1,16 @@
+characters={
+	X64_yagan_bunurong={
+		name=X64_yagan_bunurong
+		portraits={
+			civilian={
+				large="gfx/leaders/African/Portrait_SOM_Cismaan_III_Maxamuud.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

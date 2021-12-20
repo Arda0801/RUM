@@ -1,0 +1,32 @@
+
+state={
+	id=305
+	name="STATE_305"
+	resources={
+		aluminium=22.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			6631 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		656 6631 6675 9598 9630 11598 11615 
+	}
+	manpower=1240336
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

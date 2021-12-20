@@ -1,0 +1,64 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "1st Fleet"
+			location = 2038
+			ship = { name = "Manisa" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "Sinop" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Rabat Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Tetouan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Wujda Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Oran Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Casablanca Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "Halep" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Kairouan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "Filibe" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Rabat Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Dakar Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Banjul Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Tetouan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Oran Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Wujda Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Dakhla Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Casablanca Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Rosso Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Kairouan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Rabat Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Tetouan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Dakar Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Dakhla Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Oran Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Banjul Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Rosso Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Wujda Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Casablanca Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Kairouan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+			ship = { name = "Uskudar" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = X33 version_name = "1936 Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "X33"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "X33"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

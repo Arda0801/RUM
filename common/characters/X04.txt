@@ -1,0 +1,76 @@
+characters={
+	X04_bazheech_cumshewa={
+		name=X04_bazheech_cumshewa
+		corps_commander={
+			skill=3
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X04_hastiin_daghaa_tsin_sikaadnii={
+		name=X04_hastiin_daghaa_tsin_sikaadnii
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X04_kootzzah_chiricahua={
+		name=X04_kootzzah_chiricahua
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X04_dahaana_baadaane_biih_bitoodnii={
+		name=X04_dahaana_baadaane_biih_bitoodnii
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X04_oahtekah_carlanas={
+		name=X04_oahtekah_carlanas
+		navy_leader={
+			skill=2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X04_beshiltheeni_querechos={
+		name=X04_beshiltheeni_querechos
+		portraits={
+			civilian={
+				large="gfx/leaders/North_American_Native/portrait_nat_north_democratic.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

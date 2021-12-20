@@ -1,0 +1,29 @@
+
+state={
+	id=386
+	name="STATE_386"
+
+	history={
+		owner = X33
+		victory_points = {
+			5098 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		829 2065 4943 5050 5098 8040 8125 9816 10774 12773 
+	}
+	manpower=1909556
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

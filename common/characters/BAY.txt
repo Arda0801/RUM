@@ -1,0 +1,16 @@
+characters={
+	BAY_ludwig_d'aspre_von_hoobreuk={
+		name=BAY_ludwig_d'aspre_von_hoobreuk
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

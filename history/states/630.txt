@@ -1,0 +1,31 @@
+
+state={
+	id=630
+	name="STATE_630"
+
+	history={
+		owner = X44
+		victory_points = {
+			3957 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			3957 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		3957 11892 
+	}
+	manpower=328884
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

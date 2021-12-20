@@ -1,0 +1,45 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3274
+		task_force = {
+			name = "1st Fleet"
+			location = 3274
+			ship = { name = "Derfflinger" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "Friedrich der GroÃŸe" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "Goeben" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "GroÃŸer KurfÃ¼rst" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "Helgoland" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "1st Cardigan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "2nd Cardigan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "Blitz" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "Bremen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "Amazone" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "Arcona" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "Ariadne" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "Berlin" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X00 } } }
+			ship = { name = "BlÃ¼cher" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X00 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "X00"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X00"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

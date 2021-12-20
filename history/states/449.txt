@@ -1,0 +1,32 @@
+
+state={
+	id=449
+	name="STATE_449"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			5010 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		4995 5010 7980 8036 10775 12714 12757 12812 
+	}
+	manpower=3650916
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

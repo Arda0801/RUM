@@ -1,0 +1,16 @@
+characters={
+	X52_king_vikramaditya_v={
+		name=X52_king_vikramaditya_v
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_DEH_V_K_Krishna_Menon.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

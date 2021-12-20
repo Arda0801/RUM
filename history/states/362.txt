@@ -1,0 +1,36 @@
+
+state={
+	id=362
+	name="STATE_362"
+	resources={
+		steel=66.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			3338 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			312 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X33
+		add_claim_by = SCA
+	}
+
+	provinces={
+		26 87 140 180 183 312 3064 3065 3075 3080 3086 3092 3130 3168 3338 6051 6102 9041 9055 9101 9248 11038 11042 11089 11137 11171 
+	}
+	manpower=476692
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

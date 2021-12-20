@@ -1,0 +1,39 @@
+
+state={
+	id=481
+	name="STATE_481"
+	resources={
+		aluminium=8.000
+		chromium=52.000
+		steel=0.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			4696 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			4696 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = SAF
+		add_core_of = X33
+	}
+
+	provinces={
+		1833 4584 4696 7576 
+	}
+	manpower=1592228
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=601
+	name="STATE_601"
+	resources={
+		chromium=1.000
+		tungsten=11.000
+	}
+
+	history={
+		owner = SRL
+		victory_points = {
+			8011 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X32
+	}
+
+	provinces={
+		8011 12734 
+	}
+	manpower=618032
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

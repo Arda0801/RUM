@@ -1,0 +1,76 @@
+characters={
+	X47_shitekka_turushno={
+		name=X47_shitekka_turushno
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X47_apniainu_aterui={
+		name=X47_apniainu_aterui
+		corps_commander={
+			skill=1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X47_menkakush_koshamine={
+		name=X47_menkakush_koshamine
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X47_shiratekka_shakushine={
+		name=X47_shiratekka_shakushine
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X47_munkeke_isonash={
+		name=X47_munkeke_isonash
+		navy_leader={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X47_shinriki_aterui={
+		name=X47_shinriki_aterui
+		portraits={
+			civilian={
+				large="gfx/leaders/Korean_Japan/Portrait_Ainu_Shigeru_Kayano.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

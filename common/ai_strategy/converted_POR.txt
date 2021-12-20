@@ -1,0 +1,51 @@
+﻿converted_war_strategies_POR = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X33"
+		value = 327
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X56"
+		value = 108
+	}
+}
+
+converted_diplo_strategies_POR = {
+	enable = {
+		tag = POR
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "X33"
+		value = 109
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X56"
+		value = 36
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X39"
+		value = 88
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X06"
+		value = 52
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X27"
+		value = 46
+	}
+}

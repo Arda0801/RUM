@@ -1,0 +1,64 @@
+characters={
+	X08_taufa'ahau_tuabayi={
+		name=X08_taufa'ahau_tuabayi
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X08_taupe_tuabayi={
+		name=X08_taupe_tuabayi
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 5
+			legacy_id = 0
+		}
+	}
+
+	X08_tupou_ielemia={
+		name=X08_tupou_ielemia
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X08_taufa'ahau_moengangongo={
+		name=X08_taufa'ahau_moengangongo
+		corps_commander={
+			skill=2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X08_king_lika={
+		name=X08_king_lika
+		portraits={
+			civilian={
+				large="gfx/leaders/Aborigine_Polynesia/Portrait_Vietnam_Pham_Cong_Tac.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

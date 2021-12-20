@@ -1,0 +1,33 @@
+
+state={
+	id=531
+	name="STATE_531"
+	resources={
+		oil=6.000
+		tungsten=12.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			12508 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X04
+	}
+
+	provinces={
+		1872 4678 12508 12571 
+	}
+	manpower=14638
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

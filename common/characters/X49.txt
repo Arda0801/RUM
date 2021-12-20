@@ -1,0 +1,76 @@
+characters={
+	X49_raghuraj_singh={
+		name=X49_raghuraj_singh
+		corps_commander={
+			skill=3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X49_vishvanath_singh={
+		name=X49_vishvanath_singh
+		corps_commander={
+			skill=2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X49_raghuraj_singh_1={
+		name=X49_raghuraj_singh_1
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X49_pheran_singh={
+		name=X49_pheran_singh
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	X49_pheran_singh_1={
+		name=X49_pheran_singh_1
+		navy_leader={
+			skill=3
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = 0
+		}
+	}
+
+	X49_prasan_singh={
+		name=X49_prasan_singh
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_BHC_Chandra_Bose.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=670
+	name="STATE_670"
+	resources={
+		rubber=37.000
+	}
+
+	history={
+		owner = X62
+		victory_points = {
+			1574 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10263 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X02
+		add_core_of = X19
+		add_core_of = X62
+	}
+
+	provinces={
+		1098 1289 1419 1437 1484 1505 1518 1574 1589 4262 4307 4349 4493 4537 7311 7369 7413 7557 10141 10153 10169 10197 10263 10342 10409 10464 12330 12358 
+	}
+	manpower=982684
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

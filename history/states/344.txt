@@ -1,0 +1,33 @@
+
+state={
+	id=344
+	name="STATE_344"
+
+	history={
+		owner = X33
+		victory_points = {
+			12473 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 2
+			1088 = {
+				naval_base = 1
+			}
+			air_base = 2
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		901 1056 1072 1088 1549 1578 1606 1634 2013 3942 6883 7140 7671 10087 10882 12029 12473 
+	}
+	manpower=3224496
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

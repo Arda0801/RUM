@@ -1,0 +1,36 @@
+
+state={
+	id=637
+	name="STATE_637"
+	resources={
+		oil=66.000
+	}
+
+	history={
+		owner = X44
+		victory_points = {
+			7552 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			7524 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = MEX
+		add_claim_by = X16
+	}
+
+	provinces={
+		1453 1528 1559 1643 4507 4522 4535 7524 7552 7555 7599 12313 12398 12401 
+	}
+	manpower=908568
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

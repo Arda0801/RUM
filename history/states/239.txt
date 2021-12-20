@@ -1,0 +1,33 @@
+
+state={
+	id=239
+	name="STATE_239"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			3652 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = SPC
+		add_core_of = X25
+	}
+
+	provinces={
+		667 3652 3669 3681 6644 9607 9609 9644 11576 11628 
+	}
+	manpower=1922700
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

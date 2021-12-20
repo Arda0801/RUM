@@ -1,0 +1,35 @@
+
+state={
+	id=5
+	name="STATE_5"
+	resources={
+		aluminium=4.000
+		steel=9.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			650 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			11000 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		650 5191 5192 5228 8194 8222 11000 12914 
+	}
+	manpower=1741424
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

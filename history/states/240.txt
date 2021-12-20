@@ -1,0 +1,33 @@
+
+state={
+	id=240
+	name="STATE_240"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			11445 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X25
+		add_claim_by = HAN
+	}
+
+	provinces={
+		526 564 6513 6549 9375 9524 11402 11445 11468 11493 
+	}
+	manpower=3134352
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

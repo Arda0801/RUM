@@ -1,0 +1,28 @@
+characters={
+	LIB_foda_conde={
+		name=LIB_foda_conde
+		corps_commander={
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+
+	LIB_massa_konneh={
+		name=LIB_massa_konneh
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Africa_Generic_new_2.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

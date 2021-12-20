@@ -1,0 +1,35 @@
+
+state={
+	id=526
+	name="STATE_526"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			2229 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2229 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		2229 5154 5189 7605 7770 10963 
+	}
+	manpower=620340
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

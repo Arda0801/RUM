@@ -1,0 +1,261 @@
+﻿capital = 477
+set_research_slots = 2
+
+oob = "LIB_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "LIB_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "LIB_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_western_africa
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1916.4.11"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 58
+	neutrality = 42
+}
+
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BHU modifier = negative_30 }
+add_opinion_modifier = { target = BOL modifier = negative_110 }
+add_opinion_modifier = { target = BRA modifier = negative_110 }
+add_opinion_modifier = { target = CUB modifier = negative_110 }
+add_opinion_modifier = { target = DEN modifier = positive_15 }
+add_opinion_modifier = { target = ENG modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = negative_85 }
+add_opinion_modifier = { target = NOR modifier = positive_5 }
+add_opinion_modifier = { target = POR modifier = negative_10 }
+add_opinion_modifier = { target = SIA modifier = negative_30 }
+add_opinion_modifier = { target = SPC modifier = negative_30 }
+add_opinion_modifier = { target = SRL modifier = negative_30 }
+add_opinion_modifier = { target = SWE modifier = negative_5 }
+add_opinion_modifier = { target = VIN modifier = negative_30 }
+add_opinion_modifier = { target = X04 modifier = negative_110 }
+add_opinion_modifier = { target = X05 modifier = negative_10 }
+add_opinion_modifier = { target = X11 modifier = negative_30 }
+add_opinion_modifier = { target = X16 modifier = negative_110 }
+add_opinion_modifier = { target = X19 modifier = negative_30 }
+add_opinion_modifier = { target = X24 modifier = negative_110 }
+add_opinion_modifier = { target = X33 modifier = negative_195 }
+add_opinion_modifier = { target = X38 modifier = negative_30 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X44 modifier = negative_10 }
+add_opinion_modifier = { target = X49 modifier = negative_30 }
+add_opinion_modifier = { target = X51 modifier = positive_5 }
+add_opinion_modifier = { target = X53 modifier = negative_30 }
+add_opinion_modifier = { target = X55 modifier = negative_30 }
+add_opinion_modifier = { target = X56 modifier = negative_110 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_mande
+}
+
+recruit_character = LIB_foda_conde
+recruit_character = LIB_massa_konneh
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Isra Kanneh"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Kera Suso"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Khadija Conde"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Latifa Suso"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Khadija Konneh"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Isra Keita"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Mariam Jammeh"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Ibtisam Conde"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Maria Diawara"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Alhassani Diawara"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Aoua Jammeh"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Aoua Jammeh"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Aoua Suso"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Tejan Conde"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Neneh Sidibe"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Brima Keita"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Daba Keita"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Sekou Jaabi"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
