@@ -1,0 +1,41 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10190
+		task_force = {
+			name = "1st Fleet"
+			location = 10190
+			ship = { name = "Manisa" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "Sinop" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "1st Rabat Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "1st Tetouan Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "1st Wujda Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "1st Oran Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "1st Casablanca Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "Halep" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "1st Kairouan Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "Filibe" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "2nd Rabat Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "1st Dakar Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "1st Banjul Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "2nd Tetouan Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "2nd Oran Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "2nd Wujda Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "1st Dakhla Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "2nd Casablanca Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "1st Rosso Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "2nd Kairouan Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "3rd Rabat Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "3rd Tetouan Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "2nd Dakar Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "2nd Dakhla Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "3rd Oran Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "2nd Banjul Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "2nd Rosso Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "3rd Wujda Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "3rd Casablanca Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "3rd Kairouan Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+			ship = { name = "Uskudar" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RSI } } }
+		}
+	}
+}

@@ -99,3 +99,5 @@
  generic_war_of_national_liberation_desc:0 "With the Ultimatum refused, we must go on the offensive and liberate all of our territory."
  generic_national_unification:0 "National Unification"
  generic_national_unification_desc:0 "Successes in our Liberation Campaigns have only increased the interest among the [Root.GetAdjective] men to sign up for duty."
+ SRL_disjointed_government:0 "Weak State"
+ SRL_disjointed_government_desc:0 "We are fucked."

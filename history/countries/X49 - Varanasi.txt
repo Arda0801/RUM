@@ -96,9 +96,6 @@ set_popularities = {
 give_guarantee = SIA
 diplomatic_relation = { country = SIA relation = non_aggression_pact }
 
-give_guarantee = SRL
-diplomatic_relation = { country = SRL relation = non_aggression_pact }
-
 give_guarantee = X36
 diplomatic_relation = { country = X36 relation = non_aggression_pact }
 

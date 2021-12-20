@@ -141,3 +141,140 @@ set_popularities = {
 	fascism = 100
 	neutrality = 0
 }
+
+add_ideas = {
+	X33_monarch
+	extensive_conscription
+	partial_economic_mobilisation
+	limited_exports
+	culture_turkish
+}
+
+# DIPLOMACY / WAR 36
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+
+	declare_war_on = {
+		target = SRL
+		type = annex_everything
+	}
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = X33_research
+}
+
+give_guarantee = ARG
+diplomatic_relation = { country = ARG relation = non_aggression_pact }
+
+give_guarantee = BHU
+diplomatic_relation = { country = BHU relation = non_aggression_pact }
+
+give_guarantee = BOL
+diplomatic_relation = { country = BOL relation = non_aggression_pact }
+
+give_guarantee = CUB
+diplomatic_relation = { country = CUB relation = non_aggression_pact }
+
+give_guarantee = DEN
+diplomatic_relation = { country = DEN relation = non_aggression_pact }
+
+give_guarantee = HOL
+diplomatic_relation = { country = HOL relation = non_aggression_pact }
+
+give_guarantee = SWE
+diplomatic_relation = { country = SWE relation = non_aggression_pact }
+
+give_guarantee = X16
+diplomatic_relation = { country = X16 relation = non_aggression_pact }
+
+give_guarantee = X24
+diplomatic_relation = { country = X24 relation = non_aggression_pact }
+
+give_guarantee = X25
+diplomatic_relation = { country = X25 relation = non_aggression_pact }
+
+give_guarantee = X36
+diplomatic_relation = { country = X36 relation = non_aggression_pact }
+
+give_guarantee = X56
+diplomatic_relation = { country = X56 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = ARG modifier = positive_194 }
+give_military_access = ARG
+add_opinion_modifier = { target = BHU modifier = positive_200 }
+add_opinion_modifier = { target = BOL modifier = positive_103 }
+add_opinion_modifier = { target = BRA modifier = negative_51 }
+set_truce = { target = BRA days = 765 }
+add_opinion_modifier = { target = CUB modifier = positive_198 }
+give_military_access = CUB
+add_opinion_modifier = { target = DEN modifier = positive_200 }
+add_opinion_modifier = { target = ENG modifier = positive_42 }
+add_opinion_modifier = { target = HAN modifier = positive_77 }
+add_opinion_modifier = { target = HOL modifier = positive_200 }
+give_military_access = HOL
+add_opinion_modifier = { target = JAP modifier = positive_119 }
+add_opinion_modifier = { target = KSH modifier = positive_60 }
+add_opinion_modifier = { target = MAN modifier = negative_20 }
+add_opinion_modifier = { target = MEX modifier = positive_104 }
+add_opinion_modifier = { target = NOR modifier = positive_86 }
+add_opinion_modifier = { target = PHI modifier = positive_108 }
+add_opinion_modifier = { target = POL modifier = negative_198 }
+add_opinion_modifier = { target = POR modifier = positive_78 }
+add_opinion_modifier = { target = RAJ modifier = negative_5 }
+add_opinion_modifier = { target = SAM modifier = positive_109 }
+add_opinion_modifier = { target = SCA modifier = positive_71 }
+add_opinion_modifier = { target = SHL modifier = positive_15 }
+add_opinion_modifier = { target = SIA modifier = positive_17 }
+add_opinion_modifier = { target = SIL modifier = positive_50 }
+add_opinion_modifier = { target = SPC modifier = positive_51 }
+add_opinion_modifier = { target = SRL modifier = positive_200 }
+add_opinion_modifier = { target = SWE modifier = positive_200 }
+give_military_access = SWE
+add_opinion_modifier = { target = VIN modifier = negative_100 }
+add_opinion_modifier = { target = X00 modifier = positive_124 }
+add_opinion_modifier = { target = X01 modifier = positive_114 }
+add_opinion_modifier = { target = X04 modifier = positive_15 }
+set_truce = { target = X04 days = 620 }
+add_opinion_modifier = { target = X05 modifier = positive_200 }
+give_military_access = X05
+add_opinion_modifier = { target = X06 modifier = positive_55 }
+add_opinion_modifier = { target = X07 modifier = positive_115 }
+add_opinion_modifier = { target = X08 modifier = positive_70 }
+add_opinion_modifier = { target = X09 modifier = positive_194 }
+add_opinion_modifier = { target = X10 modifier = positive_37 }
+add_opinion_modifier = { target = X11 modifier = negative_176 }
+add_opinion_modifier = { target = X12 modifier = positive_114 }
+add_opinion_modifier = { target = X13 modifier = negative_1 }
+add_opinion_modifier = { target = X16 modifier = positive_130 }
+add_opinion_modifier = { target = X17 modifier = positive_199 }
+add_opinion_modifier = { target = X19 modifier = positive_115 }
+add_opinion_modifier = { target = X21 modifier = positive_27 }
+add_opinion_modifier = { target = X24 modifier = positive_195 }
+give_military_access = X24
+add_opinion_modifier = { target = X25 modifier = positive_163 }
+give_military_access = X25
+add_opinion_modifier = { target = X27 modifier = positive_112 }
+add_opinion_modifier = { target = X29 modifier = positive_26 }
+add_opinion_modifier = { target = X30 modifier = positive_90 }
+add_opinion_modifier = { target = X32 modifier = positive_75 }
+add_opinion_modifier = { target = X36 modifier = positive_200 }
+add_opinion_modifier = { target = X37 modifier = positive_62 }
+add_opinion_modifier = { target = X38 modifier = positive_106 }
+add_opinion_modifier = { target = X39 modifier = positive_15 }
+add_opinion_modifier = { target = X43 modifier = positive_30 }
+set_truce = { target = X43 days = 620 }
+add_opinion_modifier = { target = X44 modifier = positive_39 }
+set_truce = { target = X44 days = 620 }
+add_opinion_modifier = { target = X46 modifier = positive_190 }
+add_opinion_modifier = { target = X47 modifier = positive_110 }
+add_opinion_modifier = { target = X49 modifier = positive_94 }
+add_opinion_modifier = { target = X51 modifier = positive_101 }
+add_opinion_modifier = { target = X53 modifier = positive_62 }
+add_opinion_modifier = { target = X55 modifier = positive_37 }
+add_opinion_modifier = { target = X56 modifier = positive_200 }
+give_military_access = X56

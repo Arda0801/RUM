@@ -1,0 +1,35 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10190
+		task_force = {
+			name = "1st Fleet"
+			location = 10190
+			ship = { name = "Manisa" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "Sinop" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Rabat Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Tetouan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Wujda Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Oran Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Casablanca Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "Halep" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Kairouan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "Filibe" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Rabat Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Dakar Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Banjul Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Tetouan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Oran Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Wujda Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+			ship = { name = "U-7" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RSI version_name = "Type II Class" } } }
+			ship = { name = "U-8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RSI version_name = "Type II Class" } } }
+			ship = { name = "U-9" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RSI version_name = "Type II Class" } } }
+			ship = { name = "U-10" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RSI version_name = "Type II Class" } } }
+			ship = { name = "U-11" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RSI version_name = "Type II Class" } } }
+			ship = { name = "U-12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RSI version_name = "Type II Class" } } }
+			ship = { name = "U-13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RSI version_name = "Type II Class" } } }
+			ship = { name = "U-17" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RSI version_name = "Type II Class" } } }
+			ship = { name = "Uskudar" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_2 = { amount = 1 owner = RSI version_name = "1936 Destroyer" } } }
+		}
+	}
+}

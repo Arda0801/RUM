@@ -204,9 +204,6 @@ diplomatic_relation = { country = DEN relation = non_aggression_pact }
 give_guarantee = HOL
 diplomatic_relation = { country = HOL relation = non_aggression_pact }
 
-give_guarantee = SRL
-diplomatic_relation = { country = SRL relation = non_aggression_pact }
-
 give_guarantee = SWE
 diplomatic_relation = { country = SWE relation = non_aggression_pact }
 

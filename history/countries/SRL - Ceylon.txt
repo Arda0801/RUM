@@ -82,12 +82,6 @@ set_popularities = {
 	neutrality = 28
 }
 
-give_guarantee = X33
-diplomatic_relation = { country = X33 relation = non_aggression_pact }
-
-give_guarantee = X49
-diplomatic_relation = { country = X49 relation = non_aggression_pact }
-
 add_opinion_modifier = { target = ARG modifier = negative_10 }
 add_opinion_modifier = { target = BHU modifier = negative_18 }
 add_opinion_modifier = { target = BOL modifier = positive_10 }
@@ -142,6 +136,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	culture_sinhala
+	SRL_disjointed_government
 }
 set_stability = 0.60
 set_war_support = 0.60
