@@ -101,3 +101,5 @@
  generic_national_unification_desc:0 "Successes in our Liberation Campaigns have only increased the interest among the [Root.GetAdjective] men to sign up for duty."
  SRL_disjointed_government:0 "Weak State"
  SRL_disjointed_government_desc:0 "We are fucked."
+ slave_labour:0 "Slave Labour"
+ slave_labour_desc:0 "This country has a population that is forced to work."

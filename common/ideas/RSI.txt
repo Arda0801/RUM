@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+		slave_labour = {
+
+			picture = anti_soviet_pact
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = RSI
+			}
+			modifier = {
+				conscription = -0.025
+				stability_factor = -0.1
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.15
+			}
+		}
+	}
+}
