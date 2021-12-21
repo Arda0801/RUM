@@ -11,6 +11,16 @@ if = {
 	}
 }
 
+create_country_leader = {
+	name = "Alozan"
+	desc = "POLITICS_ALOZAN_DESC"
+	picture = "gfx/leaders/Indian/alozan.tga"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
 # Starting tech
 set_technology = {
 	basic_train = 1
