@@ -5546,6 +5546,13 @@ leader_traits = {
 			}
 		}
 	}
-
+	
+	ruthless_warrior = {
+		army_attack_factor = 0.5
+		army_org_regain = 0.3
+		breakthrough_factor = 0.3
+		attrition = -0.3
+		pocket_penalty = -0.2
+		army_speed_factor = 0.15
 
 }

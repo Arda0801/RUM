@@ -18,6 +18,7 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = fascism_ideology
 	traits = {
+		ruthless_warrior
 	}
 }
 
@@ -150,6 +151,7 @@ set_popularities = {
 	democratic = 0
 	fascism = 100
 	neutrality = 0
+	communism = 0
 }
 
 add_ideas = {
