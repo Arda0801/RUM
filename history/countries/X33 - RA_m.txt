@@ -154,7 +154,7 @@ if = {
     }
 	set_autonomy = {
         target = RSI
-        autonomous_state = autonomy_integrated_puppet
+        autonomous_state = autonomy_dominion
     }
     set_autonomy = {
         target = X59

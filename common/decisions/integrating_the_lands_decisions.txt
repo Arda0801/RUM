@@ -1,0 +1,16 @@
+integrating_the_lands = {
+	hgwNmfqT = {
+		icon = decision_icon_hgwNmfqT
+		days_remove = 30
+		days_re_enable = 5
+		visible = {
+			any_owned_state = {NOT = {is_core_of = RSI}}
+
+		}
+		complete_effect = {
+			every_owned_state = {add_core_of = RSI}
+add_stability = -0.05
+occupation_cost = 1
+		}
+	}
+}

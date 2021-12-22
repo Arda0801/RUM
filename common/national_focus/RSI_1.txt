@@ -8,32 +8,6 @@ focus_tree = {
 			tag = RSI
 		}
 	}
-	#Integrate the land
-	focus = {
-		id = RSI_integrate_the_land
-		icon = GFX_RSI_integrate_the_land-445
-		x = 2
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_TFV_AUTONOMY
-		}
-		prerequisite = { focus = RSI_legacy_of_the_rumi_south_india  }
-		available = {
-			has_war = no
-			
-			
-		}
-		completion_reward = {
-			add_state_core = 597
-			add_state_core = 596
-			add_state_core = 598
-			add_state_core = 599
-			add_state_core = 600
-			add_state_core = 601
-		}
-	}
-
 	#Legacy of the Rumi South India
 	focus = {
 		id = RSI_legacy_of_the_rumi_south_india
