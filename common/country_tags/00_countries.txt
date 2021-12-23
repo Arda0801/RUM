@@ -100,4 +100,6 @@ X63 = "countries/Yeni Arabistan malaya.txt"
 X64 = "countries/Yeni Arabistan philippines.txt"
 ZIM = "countries/Southern Rhodesia.txt"
 RSI = "countries/Rumi South India.txt"
+VOR = "countries/Viyalet of Rajputana.txt"
+
 
