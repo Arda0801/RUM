@@ -4,7 +4,7 @@ state={
 	name="STATE_410"
 
 	history={
-		owner = X33
+		owner = VOR
 		victory_points = {
 			3456 1 
 		}
@@ -20,7 +20,7 @@ state={
 		}
 		add_core_of = X31
 		add_core_of = X32
-		add_claim_by = X33
+		add_core_of = VOR
 	}
 
 	provinces={

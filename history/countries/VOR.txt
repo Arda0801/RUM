@@ -1,26 +1,7 @@
-capital = 1412
+capital = 4971
 set_research_slots = 2
 
-oob = "RSI_OOB"
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "RSI_1936_naval_mtg"
-	else = { 
-		set_naval_oob = "RSI_1936_naval_legacy"
-	}
-}
-
-create_country_leader = {
-	name = "Alozan"
-	desc = "POLITICS_ALOZAN_DESC"
-	picture = "gfx/leaders/Indian/alozan.tga"
-	expire = "1999.1.1"
-	ideology = fascism_ideology
-	traits = {
-		ruthless_warrior
-	}
-}
+oob = "VOR_OOB"
 
 # Starting tech
 set_technology = {
@@ -148,40 +129,18 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 100
+	democratic = 20
+	fascism = 80
 	neutrality = 0
 	communism = 0
 }
 
 add_ideas = {
 	X33_monarch
-	extensive_conscription
+	limited_conscription
 	partial_economic_mobilisation
 	limited_exports
-	culture_turkish
-	slave_labour
-}
-
-# DIPLOMACY / WAR 36
-if = {
-	limit = {
-		has_start_date < 1936.01.02
-	}
-
-	declare_war_on = {
-		target = SRL
-		type = annex_everything
-	}
-}
-if = {
-	limit = {
-        has_dlc = "Together for Victory"
-    }
-    set_autonomy = {
-        target = VOR
-        autonomous_state = autonomy_integrated_puppet
-    }
+	culture_rajput
 }
 
 if = {
