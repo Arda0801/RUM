@@ -11,8 +11,8 @@ characters={
 		}
 	}
 
-	ARG_itanu,_curumai={
-		name=ARG_itanu,_curumai
+	ARG_itanu_curumai={
+		name=ARG_itanu_curumai
 		corps_commander={
 			skill=2
 			attack_skill = 1
