@@ -1,46 +1,47 @@
 bookmarks = {
 	bookmark = {
-		name = GATHERING_STORM_NAME
-		desc = GATHERING_STORM_DESC
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
-		picture = GFX_select_date_1936
+		picture = "GFX_select_date_1936"
+		default = yes
 		default_country = "X33"
-		X33= {
+		"X33"= {
 			history = "fascism_GP_CONV_DESC"
 			ideology = fascism
 			ideas = { great_power X33_monarch }
 		}
-		X25= {
+		"X25"= {
 			history = "democratic_GP_CONV_DESC"
 			ideology = democratic
 			ideas = { great_power X25_monarch general_staff }
 		}
-		X56= {
+		"X56"= {
 			history = "democratic_GP_CONV_DESC"
 			ideology = democratic
 			ideas = { great_power }
 		}
-		X16= {
+		"X16"= {
 			history = "democratic_GP_CONV_DESC"
 			ideology = democratic
 			ideas = { great_power }
 		}
-		BOL= {
+		"BOL"= {
 			history = "democratic_GP_CONV_DESC"
 			ideology = democratic
 			ideas = { great_power }
 		}
-		ENG= {
+		"ENG"= {
 			history = "fascism_GP_CONV_DESC"
 			ideology = fascism
 			ideas = { great_power }
 		}
-		CUB= {
+		"CUB"= {
 			history = "democratic_GP_CONV_DESC"
 			ideology = democratic
 			ideas = { great_power }
 		}
-		X21= {
+		"X21"= {
 			history = "democratic_GP_CONV_DESC"
 			ideology = democratic
 			ideas = { great_power X21_monarch }
@@ -48,139 +49,139 @@ bookmarks = {
 		"---"= {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
-		ARG = {
+		"ARG"= {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { }
 		}
-		BHU = {
+		"BHU"= {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { BHU_monarch }
 		}
-		BRA = {
+		"BRA"= {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { }
 		}
-		HOL = {
+		"HOL"= {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { }
 		}
-		JAP = {
+		"JAP"= {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { JAP_monarch }
 		}
-		MAN = {
+		"MAN"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		MEX = {
+		"MEX"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		POL = {
+		"POL"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		SCA = {
+		"SCA"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		SIA = {
+		"SIA"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		SPC = {
+		"SPC"= {
 			minor = yes
 			history = "fascism_SP_CONV_DESC"
 			ideology = fascism
 			ideas = { }
 		}
-		SRL = {
+		"SRL"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		SWE = {
+		"SWE"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		X00 = {
+		"X00"= {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { X00_monarch }
 		}
-		X04 = {
+		"X04"= {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { }
 		}
-		X05 = {
+		"X05"= {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { }
 		}
-		X09 = {
+		"X09"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		X24 = {
+		"X24"= {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { }
 		}
-		X29 = {
+		"X29"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		X30 = {
+		"X30"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		X37 = {
+		"X37"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		X38 = {
+		"X38"= {
 			minor = yes
 			history = "neutrality_SP_CONV_DESC"
 			ideology = neutrality
 			ideas = { }
 		}
-		X44 = {
+		"X44"= {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
