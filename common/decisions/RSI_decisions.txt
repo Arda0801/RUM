@@ -2,7 +2,7 @@ integrating_the_lands = {
 
 	integrating_the_lands_1 = {
 
-		name = integrating_the_lands_2
+		name = integrating_the_lands
 
 		icon = generic_nationalism
 
@@ -28,10 +28,10 @@ integrating_the_lands = {
 
 		#targets = {  }
 
-		target_array = controlled_states
+		target_array = controlled_states owned_states
 
 		target_trigger = {
-			has_completed_focus = RSI_legacy_of_the_rumi_south_india
+			has_completed_focus = RSI_cleanse_the_lands
 			FROM = {
 				NOT = {
 					is_core_of = ROOT
@@ -58,13 +58,13 @@ integrating_the_lands = {
 		days_remove = 60
 
 		modifier = {
-			stability = -1
+			stability_weekly_factor = -0.001
 		}
 
 		visible = {
 			tag = RSI
-			has_completed_focus = RSI_legacy_of_the_rumi_south_india
-			always = yes
+			has_completed_focus = RSI_cleanse_the_lands
+			always = yes			
 		}
 
 		complete_effect = {

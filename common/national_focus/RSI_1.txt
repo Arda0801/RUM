@@ -27,4 +27,23 @@ focus_tree = {
 		}
 	}
 
+	#Cleanse the Lands
+	focus = {
+		id = RSI_cleanse_the_lands
+		icon = GFX_RSI_cleanse_the_lands-445
+		x = 2
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = RSI_legacy_of_the_rumi_south_india  }
+		available = {
+			SRI = {exists = no}
+		}
+		completion_reward = {
+			custom_effect_tooltip = RSI_cleanse_the_lands_tt
+		}
+	}
+
 }
