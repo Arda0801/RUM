@@ -40,7 +40,7 @@ country_event = {
 		trigger = {
 			country_event = {
 days = 5 
-id = election_of_1936.2
+id = election_of_1936.1
 }
 
 		}

@@ -1,5 +1,5 @@
 focus_tree = {
-	id = rum-1
+	id = X33_1
 	continuous_focus_position = { x = 0 y = 1000 } 
 	country = {
 		factor = 0
@@ -20,8 +20,8 @@ focus_tree = {
 		}
 		select_effect = {
 country_event = {
-days = 5 
-id = election_of_1936.1
+days = 1 
+id = election_of_1936.2
 }
 
 }
