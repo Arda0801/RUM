@@ -57,10 +57,6 @@ integrating_the_lands = {
 
 		days_remove = 60
 
-		modifier = {
-			stability_weekly_factor = -0.001
-		}
-
 		visible = {
 			tag = RSI
 			has_completed_focus = RSI_cleanse_the_lands
@@ -72,6 +68,7 @@ integrating_the_lands = {
 		}
 
 		remove_effect = {
+			stability_factor = -0.01
 			FROM = {
 				add_core_of = ROOT
 			}

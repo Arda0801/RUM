@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: Mustafa Kemal Takes Over Democratic Front!
+	SpriteType = { 
+		name = "mustafa_kemal_takes_over_democratic_front-1"
+		texturefile = "gfx/interface/events/election_of_1936-event/mustafa_kemal_takes_over_democratic_front-1.dds"
+	}
+
+	##Icon For: Election has begun!
+	SpriteType = { 
+		name = "election_has_begun-1"
+		texturefile = "gfx/interface/events/election_of_1936-event/election_has_begun-1.dds"
+	}
+
+ 
+ }

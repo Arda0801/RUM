@@ -40,9 +40,55 @@ focus_tree = {
 		prerequisite = { focus = RSI_legacy_of_the_rumi_south_india  }
 		available = {
 			SRI = {exists = no}
+			
+		}
+	}
+
+	#Legacy of the Rumi South India
+	focus = {
+		id = RSI_legacyoftherumisouthindia
+		icon = GFX_RSI_legacyoftherumisouthindia-445
+		x = 2
+		y = 0
+		cost = 1
+		search_filters = {
+			
+						FOCUS_FILTER_STABILITY
+					
 		}
 		completion_reward = {
-			custom_effect_tooltip = RSI_cleanse_the_lands_tt
+			
+						add_stability = 0.05
+						add_war_support = 0.05
+						
+						
+						
+					
+		}
+	}
+
+	#Cleanse the Lands
+	focus = {
+		id = RSI_cleansethelands
+		icon = GFX_RSI_cleansethelands-445
+		x = 2
+		y = 1
+		cost = 7
+		search_filters = {
+			
+						FOCUS_FILTER_TFV_AUTONOMY
+					
+		}
+		prerequisite = { focus = RSI_legacyoftherumisouthindia  }
+		available = {
+			
+						SRI = {exists = no}
+					
+		}
+		completion_reward = {
+			
+						custom_effect_tooltip = RSI_cleanse_the_lands_tt
+					
 		}
 	}
 

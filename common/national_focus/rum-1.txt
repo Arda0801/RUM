@@ -1,0 +1,30 @@
+focus_tree = {
+	id = rum-1
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = X33
+		}
+	}
+	#Election of 1936
+	focus = {
+		id = X33_election_of_1936
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 4
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		select_effect = {
+country_event = {
+days = 5 
+id = election_of_1936.1
+}
+
+}
+	}
+
+}
