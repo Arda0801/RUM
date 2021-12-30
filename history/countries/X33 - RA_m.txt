@@ -318,6 +318,7 @@ recruit_character = X33_emin_celik
 recruit_character = X33_kemal_saban
 recruit_character = X33_nurettin_aziz
 recruit_character = X33_bekir_eren
+recruit_character = X33_mustafa_kemal
 
 if = {
 	limit = {
