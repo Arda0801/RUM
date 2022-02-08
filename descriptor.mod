@@ -1,4 +1,4 @@
-name = "Converted - RUM"
+name = "Rum"
 replace_path="common/ideologies"
 replace_path="history/countries"
 replace_path="history/states"
