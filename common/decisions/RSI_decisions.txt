@@ -31,7 +31,7 @@ integrating_the_lands = {
 		target_array = controlled_states owned_states
 
 		target_trigger = {
-			has_completed_focus = RSI_cleanse_the_lands
+			has_completed_focus = RSI_prepare_integration
 			FROM = {
 				NOT = {
 					is_core_of = ROOT
@@ -59,7 +59,7 @@ integrating_the_lands = {
 
 		visible = {
 			tag = RSI
-			has_completed_focus = RSI_cleanse_the_lands
+			has_completed_focus = RSI_prepare_integration
 			always = yes			
 		}
 

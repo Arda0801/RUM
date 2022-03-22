@@ -1,6 +1,6 @@
 focus_tree = {
 	id = RSI_1
-	continuous_focus_position = { x = 0 y = 1000 } 
+	continuous_focus_position = { x = -40 y = 1050 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -8,21 +8,91 @@ focus_tree = {
 			tag = RSI
 		}
 	}
-	#Legacy of the Rumi South India
+	#Cleanse the Lands
 	focus = {
-		id = RSI_legacy_of_the_rumi_south_india
-		icon = GFX_RSI_legacy_of_the_rumi_south_india-445
+		id = RSI_cleanse_the_lands
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { }
+		available = {
+			SRI = {exists = no}
+			
+		}
+	}
+
+	#Prepare Integration
+	focus = {
+		id = RSI_prepare_integration
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = RSI_rumi_aid  }
+		available = {
+			SRI = {exists = no}
+					
+		}
+		completion_reward = {
+			custom_effect_tooltip = RSI_cleanse_the_lands_tt
+					
+		}
+	}
+
+	#Prepare the Next Offensive
+	focus = {
+		id = RSI_prepare_the_next_offensive
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RSI_cleanse_the_lands  }
+		available = {
+			RSI = {has_war = no}
+			
+		}
+		completion_reward = {
+			RSI = {
+			add_collaboration = { 
+			target = X55
+			value = 0.7}}
+			add_war_support = 0.25
+			
+			
+		}
+	}
+
+	#Rumi Aid
+	focus = {
+		id = RSI_rumi_aid
+		icon = GFX_goal_unknown
 		x = 2
 		y = 0
 		cost = 1
 		search_filters = {
-			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_MANPOWER
+		}
+		bypass = {
+			SRL = {NOT = {has_war_with = RSI}}
+			
 		}
 		completion_reward = {
-			add_stability = 0.05
-			add_war_support = 0.05
-			
-			
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 10000
+			    producer = X33}
+			add_manpower = 10000
+			
 			
 		}
 	}
@@ -30,65 +100,51 @@ focus_tree = {
 	#Cleanse the Lands
 	focus = {
 		id = RSI_cleanse_the_lands
-		icon = GFX_RSI_cleanse_the_lands-445
+		icon = GFX_goal_unknown
 		x = 2
-		y = 1
-		cost = 7
+		y = 2
 		search_filters = {
 			FOCUS_FILTER_TFV_AUTONOMY
 		}
-		prerequisite = { focus = RSI_legacy_of_the_rumi_south_india  }
+		prerequisite = { focus = RSI_prepare_integration  }
 		available = {
-			SRI = {exists = no}
+			RSI = {NOT = {has_war = yes}}
+			
+		}
+		completion_reward = {
+			597 = { add_compliance = 70}
+			596 = {add_compliance = 70}
+			598 = {add_compliance = 70}
+			add_manpower = -5000
+			
 			
 		}
 	}
 
-	#Legacy of the Rumi South India
+	#Initiate Battle for Unification
 	focus = {
-		id = RSI_legacyoftherumisouthindia
-		icon = GFX_RSI_legacyoftherumisouthindia-445
+		id = RSI_initiate_battle_for_unification
+		icon = GFX_goal_unknown
 		x = 2
-		y = 0
-		cost = 1
+		y = 4
+		cost = 5
 		search_filters = {
-			
-						FOCUS_FILTER_STABILITY
-					
+			FOCUS_FILTER_ANNEXATION
 		}
-		completion_reward = {
-			
-						add_stability = 0.05
-						add_war_support = 0.05
-						
-						
-						
-					
-		}
-	}
-
-	#Cleanse the Lands
-	focus = {
-		id = RSI_cleansethelands
-		icon = GFX_RSI_cleansethelands-445
-		x = 2
-		y = 1
-		cost = 7
-		search_filters = {
-			
-						FOCUS_FILTER_TFV_AUTONOMY
-					
-		}
-		prerequisite = { focus = RSI_legacyoftherumisouthindia  }
+		prerequisite = { focus = RSI_prepare_the_next_offensive  }
 		available = {
-			
-						SRI = {exists = no}
-					
+			RSI = {has_war = no}
 		}
 		completion_reward = {
+			RSI = {declare_war_on = {
+			    target = X55
+			    type = annex_everything}
+			declare_war_on = {
+			    target = X49
+			    type = annex_everything}}
 			
-						custom_effect_tooltip = RSI_cleanse_the_lands_tt
-					
+			
+			
 		}
 	}
 
