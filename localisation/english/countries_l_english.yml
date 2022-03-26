@@ -1223,4 +1223,8 @@
  VOR_neutrality:0 "Viyalet of Rajputana"
  VOR_neutrality_ADJ:0 "Rajputanan"
  VOR_neutrality_DEF:0 "Viyalet of Rajputana"
+ RUI:0 "Rumi India"
+ RUI_ADJ:0 "Indian"
+ RUI_DEF:0 "Viyalet of Rumi India"
+ 
  

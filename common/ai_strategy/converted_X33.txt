@@ -183,4 +183,19 @@ converted_diplo_strategies_X33 = {
 		id = "X50"
 		value = 65
 	}
+	ai_strategy = {
+		type = support
+		id = "RSI"
+		value = 500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "RSI"
+		value = 500
+	}
+	ai_strategy = {
+		type = dont_join_wars_with
+		id = "RSI"
+		value = 500
+	}
 }

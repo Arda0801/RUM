@@ -791,3 +791,5 @@
  war_planX63_desc:0 "We know it, they know it - war is inevitable. They'll certainly be prepared and we must make sure we are as well."
  war_planX64:0 "War Plan [X64.GetName]"
  war_planX64_desc:0 "We know it, they know it - war is inevitable. They'll certainly be prepared and we must make sure we are as well."
+ RSI_cleanse_the_lands_tt:0 "Unlocks decisions to core territory for the cost of stability."
+ RSI_reinforcements_tt:0 "The King has sent some extra divisions to help out."

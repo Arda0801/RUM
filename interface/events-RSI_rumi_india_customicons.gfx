@@ -1,0 +1,33 @@
+spriteTypes = { 
+	##Icon For: The Grand Coronation
+	SpriteType = { 
+		name = "RSI_the_grand_coronation-1"
+		texturefile = "gfx/interface/events/rumi_india-event/RSI_the_grand_coronation-1.dds"
+	}
+
+	##Icon For: King is proud
+	SpriteType = { 
+		name = "RSI_king_is_proud-1"
+		texturefile = "gfx/interface/events/rumi_india-event/RSI_king_is_proud-1.dds"
+	}
+
+	##Icon For: King Allows Annexation
+	SpriteType = { 
+		name = "RSI_king_allows_annexation-1"
+		texturefile = "gfx/interface/events/rumi_india-event/RSI_king_allows_annexation-1.dds"
+	}
+
+	##Icon For: Annexation of Viyalet of Rajputana!
+	SpriteType = { 
+		name = "RSI_annexation_of_viyalet_of_rajputana-1"
+		texturefile = "gfx/interface/events/rumi_india-event/RSI_annexation_of_viyalet_of_rajputana-1.dds"
+	}
+
+	##Icon For: Operation Successful!
+	SpriteType = { 
+		name = "RSI_operation_successful-1"
+		texturefile = "gfx/interface/events/rumi_india-event/RSI_operation_successful-1.dds"
+	}
+
+ 
+ }

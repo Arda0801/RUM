@@ -1,6 +1,6 @@
 focus_tree = {
 	id = RSI_1
-	continuous_focus_position = { x = -40 y = 1050 } 
+	continuous_focus_position = { x = -40 y = 1180 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -8,28 +8,11 @@ focus_tree = {
 			tag = RSI
 		}
 	}
-	#Cleanse the Lands
-	focus = {
-		id = RSI_cleanse_the_lands
-		icon = GFX_goal_unknown
-		x = 2
-		y = 1
-		cost = 7
-		search_filters = {
-			FOCUS_FILTER_TFV_AUTONOMY
-		}
-		prerequisite = { }
-		available = {
-			SRI = {exists = no}
-			
-		}
-	}
-
 	#Prepare Integration
 	focus = {
 		id = RSI_prepare_integration
 		icon = GFX_goal_unknown
-		x = 2
+		x = 4
 		y = 1
 		cost = 1
 		search_filters = {
@@ -41,32 +24,32 @@ focus_tree = {
 					
 		}
 		completion_reward = {
-			custom_effect_tooltip = RSI_cleanse_the_lands_tt
-					
+			custom_effect_tooltip = RSI_cleanse_the_lands_tt		
+			add_political_power = 150
 		}
 	}
 
-	#Prepare the Next Offensive
+	#Prepare the Grand Conquest
 	focus = {
-		id = RSI_prepare_the_next_offensive
+		id = RSI_prepare_the_grand_conquest
 		icon = GFX_goal_unknown
-		x = 2
-		y = 3
+		x = 4
+		y = 5
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = RSI_cleanse_the_lands  }
+		prerequisite = { focus = RSI_change_the_law  }
 		available = {
-			RSI = {has_war = no}
+			has_war = no
 			
 		}
 		completion_reward = {
 			RSI = {
 			add_collaboration = { 
 			target = X55
-			value = 0.7}}
-			add_war_support = 0.25
+			value = 0.3}}
+			add_war_support = 0.1
 			
 			
 		}
@@ -76,7 +59,7 @@ focus_tree = {
 	focus = {
 		id = RSI_rumi_aid
 		icon = GFX_goal_unknown
-		x = 2
+		x = 4
 		y = 0
 		cost = 1
 		search_filters = {
@@ -101,39 +84,37 @@ focus_tree = {
 	focus = {
 		id = RSI_cleanse_the_lands
 		icon = GFX_goal_unknown
-		x = 2
+		x = 4
 		y = 2
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_TFV_AUTONOMY
 		}
 		prerequisite = { focus = RSI_prepare_integration  }
 		available = {
-			RSI = {NOT = {has_war = yes}}
+			has_war = no
 			
 		}
 		completion_reward = {
-			597 = { add_compliance = 70}
-			596 = {add_compliance = 70}
-			598 = {add_compliance = 70}
 			add_manpower = -5000
-			
-			
+			every_owned_state = { add_compliance = 50}
+			add_political_power = 100
 		}
 	}
 
-	#Initiate Battle for Unification
+	#Conquer it all
 	focus = {
-		id = RSI_initiate_battle_for_unification
+		id = RSI_conquer_it_all
 		icon = GFX_goal_unknown
-		x = 2
-		y = 4
+		x = 4
+		y = 6
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = RSI_prepare_the_next_offensive  }
+		prerequisite = { focus = RSI_prepare_the_grand_conquest  }
 		available = {
-			RSI = {has_war = no}
+			has_war = no
 		}
 		completion_reward = {
 			RSI = {declare_war_on = {
@@ -141,10 +122,143 @@ focus_tree = {
 			    type = annex_everything}
 			declare_war_on = {
 			    target = X49
+			    type = annex_everything}
+			declare_war_on = {
+			    target = X27
 			    type = annex_everything}}
+		}
+	}
+
+	#Develop the Lands
+	focus = {
+		id = RSI_develop_the_lands
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = RSI_cleanse_the_lands  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
 			
 			
+		}
+	}
+
+	#Change the Law
+	focus = {
+		id = RSI_change_the_law
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = RSI_develop_the_lands  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
 			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+			
+			add_political_power = 100
+			
+			add_stability = -0.1
+			
+			
+		}
+	}
+
+	#The Grand Coronation
+	focus = {
+		id = RSI_the_grand_coronation
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = RSI_conquer_it_all  }
+		available = {
+			640 = {
+				is_owned_by = RSI
+			}
+			
+		}
+		completion_reward = {
+			country_event = {
+			    id = RSI_rumi_india.1
+			    days = 1
+			}
+			add_political_power = 200
+			white_peace = X36
+			white_peace = SIA
+			white_peace = X38
 		}
 	}
 

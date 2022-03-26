@@ -1,0 +1,159 @@
+add_namespace = RSI_rumi_india
+
+#The Grand Coronation
+country_event = {
+	id = RSI_rumi_india.1
+	title = RSI_rumi_india.1.t
+	desc = RSI_rumi_india.1.d
+
+	picture = RSI_the_grand_coronation-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		has_completed_focus = RSI_the_grand_coronation
+	}
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = RSI_rumi_india.1.a
+		trigger = {
+			
+
+
+		}
+		ai_chance = { factor = 1 }
+		add_country_leader_trait = the_conqueror
+set_cosmetic_tag = RUI
+every_owned_state = {
+	 add_compliance = 20
+}
+set_capital = {
+  state = 656
+  remember_old_capital = no
+}
+		hidden_effect = {
+			country_event = {
+    id = RSI_rumi_india.2
+    days = 1
+}
+		}
+	}
+}
+
+#King is proud
+country_event = {
+	id = RSI_rumi_india.2
+	title = RSI_rumi_india.2.t
+	desc = RSI_rumi_india.2.d
+
+	picture = RSI_king_is_proud-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = RSI_rumi_india.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 50000
+    producer = X33
+}
+add_manpower = 50000
+custom_effect_tooltip = RSI_reinforcements_tt
+		hidden_effect = {
+			load_oob = RSI_India
+load_focus_tree = { tree = rsi-2 }
+complete_national_focus = RSI_a_crown_without_support
+		}
+	}
+}
+
+#King Allows Annexation
+country_event = {
+	id = RSI_rumi_india.3
+	title = RSI_rumi_india.3.t
+	desc = RSI_rumi_india.3.d
+
+	picture = RSI_king_allows_annexation-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = {country_exists = VOR}
+	}
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = RSI_rumi_india.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		RSI = {add_core_of = VOR}
+
+		hidden_effect = {
+			news_event = {
+    id = RSI_rumi_india.4
+    days = 10
+}
+		}
+	}
+}
+
+#Annexation of Viyalet of Rajputana!
+news_event = {
+	id = RSI_rumi_india.4
+	title = RSI_rumi_india.4.t
+	desc = RSI_rumi_india.4.d
+
+	picture = RSI_annexation_of_viyalet_of_rajputana-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	major = yes
+	option = {
+		name = RSI_rumi_india.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Operation Successful!
+country_event = {
+	id = RSI_rumi_india.5
+	title = RSI_rumi_india.5.t
+	desc = RSI_rumi_india.5.d
+
+	picture = RSI_operation_successful-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = RSI_rumi_india.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		RSI = {transfer_state = 100}
+add_opinion_modifier = {
+    target = BHU
+    modifier = condemn_aggression
+}
+		hidden_effect = {
+			RSI = {
+diplomatic_relation = { country = BHU relation = guarantee active = no }}
+X21 = {
+diplomatic_relation = { country = BHU relation = guarantee active = no }
+}
+X33 = {
+diplomatic_relation = { country = BHU relation = guarantee active = no }
+}
+		}
+	}
+}

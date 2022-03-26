@@ -1,0 +1,321 @@
+focus_tree = {
+	id = rsi-2
+	continuous_focus_position = { x = -40 y = 1830 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RSI
+		}
+	}
+	#United Indian Identity
+	focus = {
+		id = RSI_united_indian_identity
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = RSI_article_6  }
+		completion_reward = {
+			add_stability = -0.1
+			add_manpower = -5000
+		}
+	}
+
+	#Begin Nation Wide Industrialisation
+	focus = {
+		id = RSI_begin_nation_wide_industrialisation
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = RSI_establish_universities  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+			add_stability = 0.1
+		}
+	}
+
+	#Prepare for the War of Liberation
+	focus = {
+		id = RSI_prepare_for_the_war_of_liberation
+		icon = GFX_goal_unknown
+		x = 4
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RSI_bring_the_rest  }
+		completion_reward = {
+			BHU = {every_owned_state = {add_claim_by = RSI}}
+		}
+	}
+
+	#A Crown Without Support
+	focus = {
+		id = RSI_a_crown_without_support
+		icon = GFX_goal_unknown
+		x = 4
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Establish Universities
+	focus = {
+		id = RSI_establish_universities
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = RSI_a_crown_without_support  }
+		completion_reward = {
+			add_research_slot = 1
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+		}
+	}
+
+	#Article 6
+	focus = {
+		id = RSI_article_6
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = RSI_begin_nation_wide_industrialisation  }
+		completion_reward = {
+			add_manpower = -20000
+			add_war_support = 0.2
+			add_stability = 0.1
+		}
+	}
+
+	#An Atheist Society
+	focus = {
+		id = RSI_an_atheist_society
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = RSI_united_indian_identity  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+			add_stability = -0.05
+		}
+	}
+
+	#Begin Further Expansion
+	focus = {
+		id = RSI_begin_further_expansion
+		icon = GFX_goal_unknown
+		x = 4
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RSI_an_atheist_society  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 20000
+			    producer = X33
+			}
+			add_equipment_to_stockpile = {
+			    type = light_tank_equipment_1
+			    amount = 5000
+			    producer = X33
+			}
+		}
+	}
+
+	#Bring Them Back Into the Fold
+	focus = {
+		id = RSI_bring_them_back_into_the_fold
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RSI_begin_further_expansion  }
+		completion_reward = {
+			annex_country = {
+			    target = VOR
+			    transfer_troops = yes
+			}
+			add_stability = -0.1
+		}
+	}
+
+	#Bring the Rest
+	focus = {
+		id = RSI_bring_the_rest
+		icon = GFX_goal_unknown
+		x = 4
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RSI_bring_them_back_into_the_fold  }
+		completion_reward = {
+			RSI = {add_state_claim = 246
+			add_state_claim = 595
+			add_state_claim = 594declare_war_on = {
+			    target = X27
+			    type = annex_everythingdeclare_war_on = {
+			    target = X38
+			    type = annex_everything
+			}}}
+		}
+	}
+
+	#Test the Waters
+	focus = {
+		id = RSI_test_the_waters
+		icon = GFX_goal_unknown
+		x = 4
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = RSI_prepare_for_the_war_of_liberation  }
+		completion_reward = {
+			start_border_war = {
+			    change_state_after_war = yes
+			    attacker = {
+			        state = 567
+			        num_provinces = 4
+			        on_win = RSI_rumi_india.5
+			    }
+							
+			    defender = {
+			        state = 99
+			        num_provinces = 3
+			    }
+			}
+		}
+	}
+
+	#March East!
+	focus = {
+		id = RSI_marcheast
+		icon = GFX_goal_unknown
+		x = 4
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RSI_test_the_waters  }
+		available = {
+			controls_state = 100
+		}
+		completion_reward = {
+			declare_war_on = {
+			    target = RAJ
+			    type = annex_everything
+			}
+		}
+	}
+
+}

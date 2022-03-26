@@ -1,0 +1,46 @@
+RSI_war_strategies = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SRL"
+		value = 100
+	}
+		ai_strategy = {
+		type = conquer
+		id = "X55"
+		value = 100
+	}
+		ai_strategy = {
+		type = conquer
+		id = "X49"
+		value = 100
+	}
+		ai_strategy = {
+		type = conquer
+		id = "X53"
+		value = 100
+	}
+		ai_strategy = {
+		type = conquer
+		id = "X27"
+		value = 100
+	}
+		ai_strategy = {
+		type = conquer
+		id = "RAJ"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BHU"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X38"
+		value = 100
+	}
+}

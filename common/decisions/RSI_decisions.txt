@@ -9,7 +9,9 @@ integrating_the_lands = {
 		allowed = {
 			original_tag = RSI
 		}
-
+		ai_will_do = {
+			factor = 1
+		}
 		available = {
 			FROM = {
 				compliance > 50
@@ -68,11 +70,11 @@ integrating_the_lands = {
 		}
 
 		remove_effect = {
-			stability_factor = -0.01
 			FROM = {
 				add_core_of = ROOT
 			}
 			transfer_state = FROM
+			add_stability = -0.01
 		}
 	}
 }
