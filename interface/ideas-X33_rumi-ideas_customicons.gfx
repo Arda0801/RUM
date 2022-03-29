@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: Turkish Lira
+	SpriteType = { 
+		name = "GFX_idea_X33_turkish_lira-1"
+		texturefile = "gfx/interface/ideas/rumi-ideas-ideas/X33_turkish_lira-1.dds"
+	}
+
+	##Icon For: Turkish Central Bank
+	SpriteType = { 
+		name = "GFX_idea_X33_turkish_central_bank-1"
+		texturefile = "gfx/interface/ideas/rumi-ideas-ideas/X33_turkish_central_bank-1.dds"
+	}
+
+ 
+ }

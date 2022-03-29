@@ -21,10 +21,119 @@ focus_tree = {
 		select_effect = {
 country_event = {
 days = 1 
-id = election_of_1936.2
+id = election_of_1936.1
 }
+}
+	}
 
-}
+	#Develop the Economy
+	focus = {
+		id = X33_develop_the_economy
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = X33_prime_minister_mustafa  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = X33
+			}
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = X33
+			}
+		}
+	}
+
+	#Prime Minister Mustafa
+	focus = {
+		id = X33_prime_minister_mustafa
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			always = no
+		}
+	}
+
+	#Social Services
+	focus = {
+		id = X33_social_services
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = X33_prime_minister_mustafa  }
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
+		}
+	}
+
+	#Establish the Turkish Central Bank
+	focus = {
+		id = X33_establish_the_turkish_central_bank
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = X33_develop_the_economy  }
+		completion_reward = {
+			add_ideas = X33_turkish_central_bank
+		}
+	}
+
+	#Turkish Lira
+	focus = {
+		id = X33_turkish_lira
+		icon = GFX_goal_unknown
+		x = 1
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = X33_develop_the_economy  }
+		completion_reward = {
+			add_ideas = X33_turkish_lira
+		}
 	}
 
 }

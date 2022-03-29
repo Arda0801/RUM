@@ -11,5 +11,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/events/election_of_1936-event/mustafa_kemal_takes_over_democratic_front-1.dds"
 	}
 
+	##Icon For: The Election Results!
+	SpriteType = { 
+		name = "the_election_results-1"
+		texturefile = "gfx/interface/events/election_of_1936-event/the_election_results-1.dds"
+	}
+
  
  }

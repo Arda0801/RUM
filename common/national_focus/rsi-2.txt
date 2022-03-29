@@ -14,6 +14,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 4
 		y = 4
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
@@ -36,6 +37,86 @@ focus_tree = {
 		}
 		prerequisite = { focus = RSI_establish_universities  }
 		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = RSI
+			}
 			random_owned_controlled_state = {
 			limit = {
 			free_building_slots = {
@@ -125,6 +206,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 4
 		y = 3
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
@@ -181,6 +263,7 @@ focus_tree = {
 			set_state_flag = RSI
 			}
 			add_stability = -0.05
+			add_research_slot = 1
 		}
 	}
 
@@ -225,9 +308,9 @@ focus_tree = {
 		}
 	}
 
-	#Bring Them Back Into the Fold
+	#Bring Them Into the Fold
 	focus = {
-		id = RSI_bring_them_back_into_the_fold
+		id = RSI_bring_them_into_the_fold
 		icon = GFX_goal_unknown
 		x = 4
 		y = 7
@@ -255,16 +338,21 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = RSI_bring_them_back_into_the_fold  }
+		prerequisite = { focus = RSI_bring_them_into_the_fold  }
 		completion_reward = {
 			RSI = {add_state_claim = 246
 			add_state_claim = 595
-			add_state_claim = 594declare_war_on = {
+			add_state_claim = 594
+			declare_war_on = {
 			    target = X27
-			    type = annex_everythingdeclare_war_on = {
+			    type = annex_everything}
+			declare_war_on = {
 			    target = X38
-			    type = annex_everything
-			}}}
+			    type = annex_everything}
+			declare_war_on = {
+			    target = X38
+			    type = annex_everything}
+			}
 		}
 	}
 

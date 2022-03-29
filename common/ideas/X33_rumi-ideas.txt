@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+
+		X33_turkish_lira = {
+			picture = X33_turkish_lira-1
+			modifier = {
+				political_power_gain = 0.15
+production_speed_buildings_factor = 0.1 
+			}
+		}
+
+		X33_turkish_central_bank = {
+			picture = X33_turkish_central_bank-1
+			visible = {
+				has_completed_focus = X33_establish_the_turkish_central_bank
+			}
+			modifier = {
+				stability_weekly = 0.01
+consumer_goods_factor = -0.05
+
+
+			}
+		}
+	}
+}

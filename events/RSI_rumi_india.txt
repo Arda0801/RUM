@@ -80,7 +80,9 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
-		NOT = {country_exists = VOR}
+		has_completed_focus = RSI_bring_them_into_the_fold
+
+
 	}
 	mean_time_to_happen = { days = 10 }
 	option = {
@@ -89,7 +91,7 @@ country_event = {
 			
 		}
 		ai_chance = { factor = 1 }
-		RSI = {add_core_of = VOR}
+		VOR = {add_core_of = RSI}
 
 		hidden_effect = {
 			news_event = {
@@ -140,7 +142,8 @@ country_event = {
 			
 		}
 		ai_chance = { factor = 1 }
-		RSI = {transfer_state = 100}
+		RSI = {transfer_state = 100
+transfer_state = 99}
 add_opinion_modifier = {
     target = BHU
     modifier = condemn_aggression
