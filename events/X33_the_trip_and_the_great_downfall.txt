@@ -125,7 +125,7 @@ country_event = {
 		hidden_effect = {
 			set_country_leader_portrait = {
 	ideology = democratic
-	portrait = "gfx/X33_emergency.tga"
+	portrait = "gfx/leaders/X33_emergency.tga"
 }
 news_event = {
     id = X33_the_trip_and_the_great_downfall.6
