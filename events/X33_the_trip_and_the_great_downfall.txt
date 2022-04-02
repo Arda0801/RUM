@@ -1,0 +1,161 @@
+add_namespace = X33_the_trip_and_the_great_downfall
+
+#Mustafa Sets off on Trip
+country_event = {
+	id = X33_the_trip_and_the_great_downfall.1
+	title = X33_the_trip_and_the_great_downfall.1.t
+	desc = X33_the_trip_and_the_great_downfall.1.d
+
+	picture = X33_mustafa_sets_off_on_trip-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		has_completed_focus = X33_a_national_trip
+	}
+	option = {
+		name = X33_the_trip_and_the_great_downfall.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			country_event = {
+    id = X33_the_trip_and_the_great_downfall.2
+    days = 5
+}
+		}
+	}
+}
+
+#The Arrival at Atina
+country_event = {
+	id = X33_the_trip_and_the_great_downfall.2
+	title = X33_the_trip_and_the_great_downfall.2.t
+	desc = X33_the_trip_and_the_great_downfall.2.d
+
+	picture = X33_the_arrival_at_atina-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = X33_the_trip_and_the_great_downfall.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			country_event = {
+    id = X33_the_trip_and_the_great_downfall.3
+    days = 5
+}
+		}
+	}
+}
+
+#The Speech
+country_event = {
+	id = X33_the_trip_and_the_great_downfall.3
+	title = X33_the_trip_and_the_great_downfall.3.t
+	desc = X33_the_trip_and_the_great_downfall.3.d
+
+	picture = X33_the_speech-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = X33_the_trip_and_the_great_downfall.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			country_event = {
+    id = X33_the_trip_and_the_great_downfall.4
+    days = 10
+}
+		}
+	}
+}
+
+#That Night...
+country_event = {
+	id = X33_the_trip_and_the_great_downfall.4
+	title = X33_the_trip_and_the_great_downfall.4.t
+	desc = X33_the_trip_and_the_great_downfall.4.d
+
+	picture = X33_that_night-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = X33_the_trip_and_the_great_downfall.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			country_event = {
+    id = X33_the_trip_and_the_great_downfall.5
+    days = 1
+}
+		}
+	}
+}
+
+#The Death of Mustafa
+country_event = {
+	id = X33_the_trip_and_the_great_downfall.5
+	title = X33_the_trip_and_the_great_downfall.5.t
+	desc = X33_the_trip_and_the_great_downfall.5.d
+
+	picture = X33_the_death_of_mustafa-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = X33_the_trip_and_the_great_downfall.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		set_country_leader_name = {
+	ideology = democratic
+	name = X33_emergency
+}
+		hidden_effect = {
+			set_country_leader_portrait = {
+	ideology = democratic
+	portrait = "gfx/X33_emergency.tga"
+}
+news_event = {
+    id = X33_the_trip_and_the_great_downfall.6
+    days = 1
+}
+complete_national_focus = X33_a_national_trip
+
+		}
+	}
+}
+
+#Death of Mustafa
+news_event = {
+	id = X33_the_trip_and_the_great_downfall.6
+	title = X33_the_trip_and_the_great_downfall.6.t
+	desc = X33_the_trip_and_the_great_downfall.6.d
+
+	picture = X33_death_of_mustafa-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = X33_the_trip_and_the_great_downfall.6.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

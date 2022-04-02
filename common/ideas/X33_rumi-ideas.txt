@@ -21,5 +21,19 @@ consumer_goods_factor = -0.05
 
 			}
 		}
+
+		X33_health_care = {
+			picture = X33_health_care-1
+			available = {
+				has_completed_focus = X33_better_health_care_and_education
+			}
+			visible = {
+				has_completed_focus = X33_better_health_care_and_education
+			}
+			modifier = {
+				resistance_damage_to_garrison = -0.2
+monthly_population = 0.1
+			}
+		}
 	}
 }

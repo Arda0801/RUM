@@ -10,7 +10,7 @@ state={
 		#steel = 10 # was: 20
 	}
 	
-	state_category = megapolis
+	state_category = megalopolis
 
 	history= {
 		owner = X33

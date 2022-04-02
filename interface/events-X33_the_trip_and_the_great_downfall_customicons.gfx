@@ -1,0 +1,39 @@
+spriteTypes = { 
+	##Icon For: Mustafa Sets off on Trip
+	SpriteType = { 
+		name = "X33_mustafa_sets_off_on_trip-1"
+		texturefile = "gfx/interface/events/the_trip_and_the_great_downfall-event/X33_mustafa_sets_off_on_trip-1.dds"
+	}
+
+	##Icon For: The Arrival at Atina
+	SpriteType = { 
+		name = "X33_the_arrival_at_atina-1"
+		texturefile = "gfx/interface/events/the_trip_and_the_great_downfall-event/X33_the_arrival_at_atina-1.dds"
+	}
+
+	##Icon For: The Speech
+	SpriteType = { 
+		name = "X33_the_speech-1"
+		texturefile = "gfx/interface/events/the_trip_and_the_great_downfall-event/X33_the_speech-1.dds"
+	}
+
+	##Icon For: That Night...
+	SpriteType = { 
+		name = "X33_that_night-1"
+		texturefile = "gfx/interface/events/the_trip_and_the_great_downfall-event/X33_that_night-1.dds"
+	}
+
+	##Icon For: The Death of Mustafa
+	SpriteType = { 
+		name = "X33_the_death_of_mustafa-1"
+		texturefile = "gfx/interface/events/the_trip_and_the_great_downfall-event/X33_the_death_of_mustafa-1.dds"
+	}
+
+	##Icon For: Death of Mustafa
+	SpriteType = { 
+		name = "X33_death_of_mustafa-1"
+		texturefile = "gfx/interface/events/the_trip_and_the_great_downfall-event/X33_death_of_mustafa-1.dds"
+	}
+
+ 
+ }

@@ -11,5 +11,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/rumi-ideas-ideas/X33_turkish_central_bank-1.dds"
 	}
 
+	##Icon For: Health Care
+	SpriteType = { 
+		name = "GFX_idea_X33_health_care-1"
+		texturefile = "gfx/interface/ideas/rumi-ideas-ideas/X33_health_care-1.dds"
+	}
+
  
  }

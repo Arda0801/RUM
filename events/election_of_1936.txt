@@ -15,11 +15,14 @@ country_event = {
 			
 		}
 		ai_chance = { factor = 1 }
-		
+		add_popularity = {
+    ideology = fascism
+    popularity = 0.2
+}
 		hidden_effect = {
 			country_event = {
     id = election_of_1936.2
-    days = 10
+    days = 5
 }
 		}
 	}
@@ -43,7 +46,7 @@ country_event = {
 		
 		hidden_effect = {
 			country_event = {
-days = 1 
+days = 5 
 id = election_of_1936.3
 }
 		}
@@ -70,7 +73,7 @@ country_event = {
 	ruling_party = democratic
         elections_allowed = yes}
 		hidden_effect = {
-			unlock_national_focus = X33_prime_minister_mustafa
+			complete_national_focus = X33_prime_minister_mustafa
 		}
 	}
 }

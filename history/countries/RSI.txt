@@ -302,3 +302,7 @@ add_opinion_modifier = { target = X53 modifier = positive_62 }
 add_opinion_modifier = { target = X55 modifier = positive_37 }
 add_opinion_modifier = { target = X56 modifier = positive_200 }
 give_military_access = X56
+
+recruit_character = alozan
+recruit_character = denizseferoglu
+recruit_character = alper_bozkurt
